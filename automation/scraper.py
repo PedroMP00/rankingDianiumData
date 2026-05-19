@@ -4,12 +4,10 @@ import glob
 import shutil
 from pathlib import Path
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait, Select
 from selenium.webdriver.support import expected_conditions as EC
-from webdriver_manager.chrome import ChromeDriverManager
 import config
 
 class RFEAScraper:
@@ -37,10 +35,8 @@ class RFEAScraper:
         }
         options.add_experimental_option("prefs", prefs)
 
-        self.driver = webdriver.Chrome(
-            service=Service(ChromeDriverManager().install()),
-            options=options
-        )
+        # CORRECCIÓN: Quitamos webdriver-manager. Selenium detecta el driver de forma nativa.
+        self.driver = webdriver.Chrome(options=options)
         self.wait = WebDriverWait(self.driver, config.SELENIUM_WAIT_TIME)
 
     def get_latest_file(self):
@@ -88,8 +84,8 @@ class RFEAScraper:
                         continue
 
                     for p_val, p_text in pruebas:
-                        nombre_fichero = p_text.replace("/", "-").replace(" ", "_").replace("(", "").replace(")", "").strip()
-                        final_path = ruta_destino / f"{nombre_fichero}.xlsx"
+                        nombre_fiscale = p_text.replace("/", "-").replace(" ", "_").replace("(", "").replace(")", "").strip()
+                        final_path = ruta_destino / f"{nombre_fiscale}.xlsx"
 
                         if final_path.exists():
                             print(f"   ⏭️  {p_text}")
@@ -115,7 +111,7 @@ class RFEAScraper:
                                     print("✅")
                                     descargado = True
                                     break
-                            if not descargado:
+                            if not downgraded:
                                 print("❌ (Timeout)")
                         except Exception as e:
                             print(f"⚠️ ({str(e)[:20]})")
