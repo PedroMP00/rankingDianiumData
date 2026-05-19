@@ -26,6 +26,8 @@ class RFEAScraper:
             options.add_argument("--headless")
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
+        # CORRECCIÓN: Opción necesaria para que Chrome headless no crashee en GitHub Actions
+        options.add_argument("--disable-gpu")
         options.add_argument("--window-size=1200,800")
 
         prefs = {

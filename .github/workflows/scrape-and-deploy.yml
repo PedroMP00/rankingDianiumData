@@ -1,20 +1,18 @@
-name: Scraper de Ranking Semanal y Despliegue
+name: Raspado de Ranking Semanal y Despliegue
 
 on:
   schedule:
     - cron: '0 1 * * 1'  # Todos los lunes a las 01:00 UTC
-  workflow_dispatch:     # Activador manual desde la web de GitHub
+  workflow_dispatch:     # Permite ejecutarlo a mano desde GitHub
 
 jobs:
   scrape-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Actualizado a v4 para evitar avisos de Node.js obsoleto
       - name: Descargar repositorio
         uses: actions/checkout@v4
 
-      # 2. Actualizado a v5 para soporte nativo de Node.js 24
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
@@ -22,26 +20,44 @@ jobs:
 
       - name: Instalar dependencias
         run: |
-          pip install -r automation/requirements.txt
+          python -m pip install --upgrade pip
+          pip install "numpy<2.0.0" [cite: 1]
+          pip install -r automation/requirements.txt [cite: 1]
 
       - name: Ejecutar script de raspado (Pipeline)
         id: pipeline
         run: |
-          cd automation
-          python main.py
+          # Ejecutamos desde la raíz para que config.py no rompa las rutas relativas
+          python automation/main.py
+
+      - name: Enviar notificación de éxito a Telegram
+        if: success()
+        run: |
+          # Contamos las filas del archivo compilado en su ruta real generada
+          RECORDS=$(python -c "import json; data = json.load(open('web_ftp/data/dataCompleto.json')); print(len(data))")
+          python automation/telegram_bot.py success "$RECORDS" "$RECORDS"
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - name: Enviar notificación de fallo a Telegram
+        if: failure()
+        run: |
+          python automation/telegram_bot.py failure "La ejecución del Pipeline de raspado ha fallado"
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
       - name: Desplegar en gh-pages
         if: success()
         run: |
-          # Guardar una copia temporal del JSON generado antes de cambiar de rama
+          # Hacemos una copia de seguridad del JSON antes de limpiar la rama
           mkdir -p gh-pages-temp
           cp web_ftp/data/dataCompleto.json gh-pages-temp/
 
-          # Configurar el usuario de Git utilizando el bot oficial de GitHub
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
 
-          # Verificar si la rama gh-pages existe; si no, crearla limpia
           git fetch origin || true
           if git rev-parse --verify origin/gh-pages >/dev/null 2>&1; then
             git checkout gh-pages
@@ -50,38 +66,15 @@ jobs:
             git reset --hard
           fi
 
-          # Traer de vuelta el JSON guardado a la raíz de la rama gh-pages
+          # Ponemos el JSON en la raíz de gh-pages
           cp gh-pages-temp/dataCompleto.json ./
           rm -rf gh-pages-temp
 
-          # Confirmar cambios y subirlos
           git add dataCompleto.json
-          git commit -m "chore: actualizar rankings - $(date -u +'%Y-%m-%d %H:%M UTC')" || echo "Sin cambios que confirmar"
+          git commit -m "chore: actualizar rankings - $(date -u +'%Y-%m-%d %H:%M UTC')" || echo "Sin cambios"
           git push origin gh-pages
-
-      # CORREGIDO: Contamos las filas del JSON ANTES de que el paso anterior borre la ruta original
-      - name: Enviar notificación de éxito a Telegram
-        if: success()
-        run: |
-          # Contar registros usando el JSON que acabamos de subir a la raíz en gh-pages
-          RECORDS=$(python -c "import json; data = json.load(open('dataCompleto.json')); print(len(data))")
-          cd automation
-          python telegram_bot.py success "$RECORDS" "$RECORDS"
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-
-      - name: Enviar notificación de fallo a Telegram
-        if: failure()
-        run: |
-          cd automation
-          python telegram_bot.py failure "La ejecución del Pipeline ha fallado"
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
       - name: Resumen del despliegue
         run: |
-          echo "✅ Flujo de trabajo completado con éxito"
-          echo "📊 Archivos actualizados y desplegados en la rama gh-pages"
-          echo "🌐 Datos disponibles públicamente en: https://${{ github.repository_owner }}.github.io/rankingV2/dataCompleto.json"
+          echo "✅ Flujo completado"
+          echo "🌐 URL de datos: https://${{ github.repository_owner }}.github.io/rankingV2/dataCompleto.json"
