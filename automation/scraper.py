@@ -14,7 +14,6 @@ class RFEAScraper:
     def __init__(self, year, headless=True):
         self.year = year
         self.base_dir = config.EXCEL_DOWNLOAD_DIR / str(year)
-        # Carpeta temporal exclusiva para las descargas de Selenium en cada iteración
         self.tmp_download_dir = config.PROJECT_ROOT / "automation" / "tmp_downloads"
         self.headless = headless
         self.driver = None
@@ -29,7 +28,6 @@ class RFEAScraper:
         options.add_argument("--disable-gpu")
         options.add_argument("--window-size=1200,800")
 
-        # Configuramos Chrome para que descargue siempre en nuestra carpeta temporal limpia
         prefs = {
             "download.default_directory": str(self.tmp_download_dir),
             "download.prompt_for_download": False,
@@ -41,20 +39,39 @@ class RFEAScraper:
         self.wait = WebDriverWait(self.driver, config.SELENIUM_WAIT_TIME)
 
     def limpiar_carpeta_temporal(self):
-        """Borra la carpeta temporal y la recrea completamente vacía."""
         if self.tmp_download_dir.exists():
             shutil.rmtree(self.tmp_download_dir)
         os.makedirs(self.tmp_download_dir, exist_ok=True)
 
-    def aplicar_filtros_base(self, cat_val, sexo_val):
+    def inicializar_y_obtener_pruebas(self, cat_val, sexo_val):
+        """Entra a la web, aplica los filtros base y extrae la lista de pruebas válidas."""
         self.driver.get(config.RFEA_URL)
-        time.sleep(3)
-        Select(self.wait.until(EC.presence_of_element_located((By.ID, "edit-season")))).select_by_value(str(self.year))
-        time.sleep(1)
-        Select(self.driver.find_element(By.ID, "edit-category")).select_by_value(cat_val)
-        time.sleep(1)
-        Select(self.driver.find_element(By.ID, "edit-gender")).select_by_value(sexo_val)
-        time.sleep(3)
+        
+        # Esperamos a que el desplegable de temporada esté listo y elegimos el año
+        el_season = self.wait.until(EC.visibility_of_element_located((By.ID, "edit-season")))
+        Select(el_season).select_by_value(str(self.year))
+        time.sleep(1.5)
+
+        # Seleccionamos categoría
+        el_cat = self.wait.until(EC.visibility_of_element_located((By.ID, "edit-category")))
+        Select(el_cat).select_by_value(cat_val)
+        time.sleep(1.5)
+
+        # Seleccionamos sexo
+        el_gender = self.wait.until(EC.visibility_of_element_located((By.ID, "edit-gender")))
+        Select(el_gender).select_by_value(sexo_val)
+        time.sleep(3.5) # Tiempo clave para que la RFEA cargue el listado dinámico de eventos
+
+        # Extraemos las opciones válidas
+        el_event = self.wait.until(EC.presence_of_element_located((By.ID, "edit-event")))
+        select_elem = Select(el_event)
+        
+        pruebas = []
+        for opt in select_elem.options:
+            val = opt.get_attribute("value")
+            if val and "::" in val:
+                pruebas.append((val, opt.text))
+        return pruebas
 
     def download_all(self):
         os.makedirs(self.base_dir, exist_ok=True)
@@ -71,21 +88,15 @@ class RFEAScraper:
 
                     print(f"\n🚀 {cat_nombre} - {sexo_nombre}")
 
+                    # Obtenemos la lista de pruebas de forma limpia
                     try:
-                        self.aplicar_filtros_base(cat_val, sexo_val)
-                    except Exception as e:
-                        print(f"   ⚠️ Error aplicando filtros base: {str(e)[:40]}")
-                        continue
-
-                    try:
-                        select_elem = Select(self.driver.find_element(By.ID, "edit-event"))
-                        pruebas = [(opt.get_attribute("value"), opt.text) for opt in select_elem.options
-                                  if opt.get_attribute("value") and "::" in opt.get_attribute("value")]
+                        pruebas = self.inicializar_y_obtener_pruebas(cat_val, sexo_val)
                         print(f"   Found {len(pruebas)} events")
                     except Exception as e:
-                        print(f"   ⚠️ No se pudieron extraer eventos: {str(e)[:40]}")
+                        print(f"   ⚠️ Error extrayendo listado de pruebas: {str(e)[:50]}")
                         continue
 
+                    # Iteramos sobre cada prueba
                     for p_val, p_text in pruebas:
                         nombre_fiscale = p_text.replace("/", "-").replace(" ", "_").replace("(", "").replace(")", "").strip()
                         final_path = ruta_destino / f"{nombre_fiscale}.xlsx"
@@ -95,26 +106,37 @@ class RFEAScraper:
                             continue
 
                         print(f"   Processing: {p_text}...", end=" ", flush=True)
-                        
-                        # PASO CLAVE: Vaciamos la carpeta temporal antes de darle al botón
                         self.limpiar_carpeta_temporal()
 
                         try:
-                            select_eventos = Select(self.wait.until(EC.presence_of_element_located((By.ID, "edit-event"))))
-                            select_eventos.select_by_value(p_val)
-                            time.sleep(2.5) 
+                            # ESTRATEGIA MAESTRA: Recargamos la URL e introducemos los filtros de cero para cada prueba individual
+                            # Esto evita CUALQUIER desincronización o elemento caducado (Stale Element)
+                            self.driver.get(config.RFEA_URL)
+                            
+                            Select(self.wait.until(EC.visibility_of_element_located((By.ID, "edit-season")))).select_by_value(str(self.year))
+                            time.sleep(1)
+                            Select(self.wait.until(EC.visibility_of_element_located((By.ID, "edit-category")))).select_by_value(cat_val)
+                            time.sleep(1)
+                            Select(self.wait.until(EC.visibility_of_element_located((By.ID, "edit-gender")))).select_by_value(sexo_val)
+                            time.sleep(2.5)
 
+                            # Seleccionamos la prueba concreta
+                            select_eventos = Select(self.wait.until(EC.visibility_of_element_located((By.ID, "edit-event"))))
+                            select_eventos.select_by_value(p_val)
+                            time.sleep(3.5) # Esperamos a que la RFEA busque y pinte el botón de Excel
+
+                            # Hacemos clic en el botón de exportación
                             btn_excel = self.wait.until(EC.element_to_be_clickable((By.ID, "export-excel-btn")))
                             self.driver.execute_script("arguments[0].click();", btn_excel)
 
+                            # Esperamos la descarga física del archivo
                             descargado = False
-                            # Esperamos a que aparezca el archivo en la carpeta limpia
                             for _ in range(config.SELENIUM_DOWNLOAD_TIMEOUT):
                                 time.sleep(1)
                                 archivos = [f for f in glob.glob(str(self.tmp_download_dir / "*.xlsx")) 
                                             if not f.endswith('.crdownload')]
                                 
-                                if archivos: # ¡Ha aparecido el archivo!
+                                if archivos:
                                     shutil.move(archivos[0], final_path)
                                     downloaded_files.append(str(final_path))
                                     print("✅")
@@ -123,13 +145,9 @@ class RFEAScraper:
                             
                             if not descargado:
                                 print("❌ (Timeout)")
-                                # Si da timeout real, refrescamos la web por seguridad
-                                self.aplicar_filtros_base(cat_val, sexo_val)
 
                         except Exception as e:
-                            print(f"⚠️ (Error: {str(e)[:20]})")
-                            try: self.aplicar_filtros_base(cat_val, sexo_val)
-                            except: pass
+                            print(f"⚠️ (Error: {str(e)[:30]})")
 
             print("\n🏁 DOWNLOAD COMPLETE")
             return downloaded_files
@@ -137,10 +155,8 @@ class RFEAScraper:
         finally:
             if self.driver:
                 self.driver.quit()
-            # Limpieza final al terminar el script
             if self.tmp_download_dir.exists():
                 shutil.rmtree(self.tmp_download_dir)
-
 
 def download_year(year, headless=True):
     scraper = RFEAScraper(year, headless=headless)
