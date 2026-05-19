@@ -1,4 +1,4 @@
-name: Raspado de Ranking Semanal y Despliegue
+name: Scraping de Ranking Semanal
 
 on:
   schedule:
@@ -24,7 +24,7 @@ jobs:
           pip install "numpy<2.0.0"
           pip install -r automation/requirements.txt
 
-      - name: Ejecutar script de raspado (Pipeline)
+      - name: Ejecutar script de Scraping (Pipeline)
         id: pipeline
         run: |
           python automation/main.py
@@ -74,4 +74,4 @@ jobs:
       - name: Resumen del despliegue
         run: |
           echo "✅ Flujo completado"
-          echo "🌐 URL de datos: https://${{ github.repository_owner }}.github.io/rankingV2/dataCompleto.json"
+          echo "🌐 URL de datos: https://pedromp00.github.io/rankingDianiumData/dataCompleto.json" 

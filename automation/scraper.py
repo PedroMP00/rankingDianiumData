@@ -44,6 +44,17 @@ class RFEAScraper:
             return None
         return max(archivos, key=os.path.getmtime)
 
+    def aplicar_filtros_base(self, cat_val, sexo_val):
+        """Aplica de forma segura los filtros de temporada, categoría y sexo."""
+        self.driver.get(config.RFEA_URL)
+        time.sleep(3)
+        Select(self.wait.until(EC.presence_of_element_located((By.ID, "edit-season")))).select_by_value(str(self.year))
+        time.sleep(1)
+        Select(self.driver.find_element(By.ID, "edit-category")).select_by_value(cat_val)
+        time.sleep(1)
+        Select(self.driver.find_element(By.ID, "edit-gender")).select_by_value(sexo_val)
+        time.sleep(3)
+
     def download_all(self):
         os.makedirs(self.base_dir, exist_ok=True)
         self.setup_driver()
@@ -58,19 +69,10 @@ class RFEAScraper:
 
                     print(f"\n🚀 {cat_nombre} - {sexo_nombre}")
 
-                    # MEJORA: Forzamos la carga limpia de la URL al inicio de cada iteración para resetear estados colgados
-                    self.driver.get(config.RFEA_URL)
-                    time.sleep(3)
-
                     try:
-                        Select(self.wait.until(EC.presence_of_element_located((By.ID, "edit-season")))).select_by_value(str(self.year))
-                        time.sleep(1) # Espera añadida de asentamiento
-                        Select(self.driver.find_element(By.ID, "edit-category")).select_by_value(cat_val)
-                        time.sleep(1) # Espera añadida de asentamiento
-                        Select(self.driver.find_element(By.ID, "edit-gender")).select_by_value(sexo_val)
-                        time.sleep(3) # Tiempo prudencial para que cargue el listado de eventos
+                        self.aplicar_filtros_base(cat_val, sexo_val)
                     except Exception as e:
-                        print(f"   ⚠️ Error setting filters: {str(e)[:40]}")
+                        print(f"   ⚠️ Error crítico aplicando filtros iniciales: {str(e)[:40]}")
                         continue
 
                     try:
@@ -79,7 +81,7 @@ class RFEAScraper:
                                   if opt.get_attribute("value") and "::" in opt.get_attribute("value")]
                         print(f"   Found {len(pruebas)} events")
                     except Exception as e:
-                        print(f"   ⚠️ No events found: {str(e)[:40]}")
+                        print(f"   ⚠️ No se pudieron extraer los eventos: {str(e)[:40]}")
                         continue
 
                     for p_val, p_text in pruebas:
@@ -91,13 +93,18 @@ class RFEAScraper:
                             continue
 
                         print(f"   Processing: {p_text}...", end=" ", flush=True)
+                        
+                        # Bandera para saber si necesitamos recuperar la página tras un fallo
+                        necesita_recuperacion = False
                         archivo_antes = self.get_latest_file()
 
                         try:
-                            Select(self.driver.find_element(By.ID, "edit-event")).select_by_value(p_val)
-                            time.sleep(3) # Aumentado el tiempo para evitar el 'no such element' al recargar la tabla
+                            # Aseguramos que el selector de eventos esté disponible en pantalla
+                            select_eventos = Select(self.wait.until(EC.presence_of_element_located((By.ID, "edit-event"))))
+                            select_eventos.select_by_value(p_val)
+                            time.sleep(3) 
 
-                            btn_excel = self.driver.find_element(By.ID, "export-excel-btn")
+                            btn_excel = self.wait.until(EC.element_to_be_clickable((By.ID, "export-excel-btn")))
                             self.driver.execute_script("arguments[0].click();", btn_excel)
 
                             descargado = False
@@ -111,11 +118,23 @@ class RFEAScraper:
                                     descargado = True
                                     break
                             
-                            # CORRECCIÓN: Corregido error de escritura tipográfico (de 'if not downgraded' a 'if not descargado')
                             if not descargado:
                                 print("❌ (Timeout)")
+                                necesita_recuperacion = True
+
                         except Exception as e:
-                            print(f"⚠️ ({str(e)[:20]})")
+                            print(f"⚠️ (Error: {str(e)[:30]})")
+                            necesita_recuperacion = True
+
+                        # MEJORA CLAVE: Si la prueba falló o dio timeout, reiniciamos la web 
+                        # para que la siguiente prueba se ejecute en un entorno totalmente limpio
+                        if necesita_recuperacion:
+                            try:
+                                print("   🔄 Recargando entorno por seguridad...", end="", flush=True)
+                                self.aplicar_filtros_base(cat_val, sexo_val)
+                                print(" Listo.")
+                            except Exception:
+                                print(" Falló recarga. Se reintentará en el siguiente paso.")
 
             print("\n🏁 DOWNLOAD COMPLETE")
             return downloaded_files
