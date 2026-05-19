@@ -1,0 +1,53 @@
+name: Regenerate Historical Data
+
+on:
+  workflow_dispatch:  # Manual trigger only
+
+jobs:
+  regenerate-historical:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r automation/requirements.txt
+
+      - name: Regenerate historical rankings
+        run: |
+          cd automation
+          python -c "
+import importer
+import config
+import json
+
+print('Regenerating historical data from Excel files...')
+records = importer.import_and_export(
+    input_dir=str(config.EXCEL_PROCESSING_DIR),
+    output_file=str(config.OUTPUT_FILE_HISTORICAL),
+    club_name=config.CLUB_NAME,
+    mode='historical'
+)
+
+print(f'✅ Historical data regenerated: {records} records')
+print(f'📄 Output: {config.OUTPUT_FILE_HISTORICAL}')
+          "
+
+      - name: Commit historical data
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add web_ftp/data/dataOld.json
+          git commit -m "chore: regenerate historical data - $(date -u +'%Y-%m-%d %H:%M UTC')" || echo "No changes to commit"
+          git push
+
+      - name: Summary
+        run: |
+          echo "✅ Historical data regeneration complete"
+          echo "📊 Updated dataOld.json in main branch"

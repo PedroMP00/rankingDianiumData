@@ -1,0 +1,83 @@
+name: Weekly Ranking Scrape & Deploy
+
+on:
+  schedule:
+    - cron: '0 1 * * 1'  # Monday 01:00 UTC
+  workflow_dispatch:     # Manual trigger
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r automation/requirements.txt
+
+      - name: Run scraper pipeline
+        run: |
+          cd automation
+          python main.py
+        id: pipeline
+
+      - name: Deploy to gh-pages
+        if: success()
+        run: |
+          # Prepare gh-pages branch content
+          mkdir -p gh-pages-temp
+          cp web_ftp/data/dataCompleto.json gh-pages-temp/
+
+          # Configure git
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+
+          # Check if gh-pages branch exists, if not create it
+          git fetch origin || true
+          if git rev-parse --verify origin/gh-pages >/dev/null 2>&1; then
+            git checkout gh-pages
+          else
+            git checkout --orphan gh-pages
+            git reset --hard
+          fi
+
+          # Copy compiled data
+          cp gh-pages-temp/dataCompleto.json ./
+          rm -rf gh-pages-temp
+
+          # Commit and push
+          git add dataCompleto.json
+          git commit -m "chore: update rankings - $(date -u +'%Y-%m-%d %H:%M UTC')" || echo "No changes to commit"
+          git push origin gh-pages
+
+      - name: Send Telegram Notification (Success)
+        if: success()
+        run: |
+          cd automation
+          # Count records in dataCompleto.json
+          RECORDS=$(python -c "import json; data = json.load(open('../web_ftp/data/dataCompleto.json')); print(len(data))")
+          python telegram_bot.py success "$RECORDS" "$RECORDS"
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - name: Send Telegram Notification (Failure)
+        if: failure()
+        run: |
+          cd automation
+          python telegram_bot.py failure "Pipeline execution failed"
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - name: Deployment Summary
+        run: |
+          echo "✅ Workflow completed"
+          echo "📊 Updated files deployed to gh-pages branch"
+          echo "🌐 Data available at: https://${{ github.repository_owner }}.github.io/rankingV2/dataCompleto.json"
