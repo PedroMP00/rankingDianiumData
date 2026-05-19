@@ -21,19 +21,17 @@ jobs:
       - name: Instalar dependencias
         run: |
           python -m pip install --upgrade pip
-          pip install "numpy<2.0.0" [cite: 1]
-          pip install -r automation/requirements.txt [cite: 1]
+          pip install "numpy<2.0.0"
+          pip install -r automation/requirements.txt
 
       - name: Ejecutar script de raspado (Pipeline)
         id: pipeline
         run: |
-          # Ejecutamos desde la raíz para que config.py no rompa las rutas relativas
           python automation/main.py
 
       - name: Enviar notificación de éxito a Telegram
         if: success()
         run: |
-          # Contamos las filas del archivo compilado en su ruta real generada
           RECORDS=$(python -c "import json; data = json.load(open('web_ftp/data/dataCompleto.json')); print(len(data))")
           python automation/telegram_bot.py success "$RECORDS" "$RECORDS"
         env:
@@ -43,6 +41,7 @@ jobs:
       - name: Enviar notificación de fallo a Telegram
         if: failure()
         run: |
+          pip install requests
           python automation/telegram_bot.py failure "La ejecución del Pipeline de raspado ha fallado"
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -51,7 +50,6 @@ jobs:
       - name: Desplegar en gh-pages
         if: success()
         run: |
-          # Hacemos una copia de seguridad del JSON antes de limpiar la rama
           mkdir -p gh-pages-temp
           cp web_ftp/data/dataCompleto.json gh-pages-temp/
 
@@ -66,7 +64,6 @@ jobs:
             git reset --hard
           fi
 
-          # Ponemos el JSON en la raíz de gh-pages
           cp gh-pages-temp/dataCompleto.json ./
           rm -rf gh-pages-temp
 
