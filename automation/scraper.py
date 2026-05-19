@@ -24,7 +24,6 @@ class RFEAScraper:
             options.add_argument("--headless")
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
-        # CORRECCIÓN: Opción necesaria para que Chrome headless no crashee en GitHub Actions
         options.add_argument("--disable-gpu")
         options.add_argument("--window-size=1200,800")
 
@@ -35,7 +34,6 @@ class RFEAScraper:
         }
         options.add_experimental_option("prefs", prefs)
 
-        # CORRECCIÓN: Quitamos webdriver-manager. Selenium detecta el driver de forma nativa.
         self.driver = webdriver.Chrome(options=options)
         self.wait = WebDriverWait(self.driver, config.SELENIUM_WAIT_TIME)
 
@@ -60,18 +58,19 @@ class RFEAScraper:
 
                     print(f"\n🚀 {cat_nombre} - {sexo_nombre}")
 
+                    # MEJORA: Forzamos la carga limpia de la URL al inicio de cada iteración para resetear estados colgados
                     self.driver.get(config.RFEA_URL)
-                    time.sleep(2)
+                    time.sleep(3)
 
                     try:
                         Select(self.wait.until(EC.presence_of_element_located((By.ID, "edit-season")))).select_by_value(str(self.year))
-                        time.sleep(0.5)
+                        time.sleep(1) # Espera añadida de asentamiento
                         Select(self.driver.find_element(By.ID, "edit-category")).select_by_value(cat_val)
-                        time.sleep(0.5)
+                        time.sleep(1) # Espera añadida de asentamiento
                         Select(self.driver.find_element(By.ID, "edit-gender")).select_by_value(sexo_val)
-                        time.sleep(2)
+                        time.sleep(3) # Tiempo prudencial para que cargue el listado de eventos
                     except Exception as e:
-                        print(f"   ⚠️ Error setting filters: {e}")
+                        print(f"   ⚠️ Error setting filters: {str(e)[:40]}")
                         continue
 
                     try:
@@ -80,7 +79,7 @@ class RFEAScraper:
                                   if opt.get_attribute("value") and "::" in opt.get_attribute("value")]
                         print(f"   Found {len(pruebas)} events")
                     except Exception as e:
-                        print(f"   ⚠️ No events found: {e}")
+                        print(f"   ⚠️ No events found: {str(e)[:40]}")
                         continue
 
                     for p_val, p_text in pruebas:
@@ -96,7 +95,7 @@ class RFEAScraper:
 
                         try:
                             Select(self.driver.find_element(By.ID, "edit-event")).select_by_value(p_val)
-                            time.sleep(2.5)
+                            time.sleep(3) # Aumentado el tiempo para evitar el 'no such element' al recargar la tabla
 
                             btn_excel = self.driver.find_element(By.ID, "export-excel-btn")
                             self.driver.execute_script("arguments[0].click();", btn_excel)
@@ -111,7 +110,9 @@ class RFEAScraper:
                                     print("✅")
                                     descargado = True
                                     break
-                            if not downgraded:
+                            
+                            # CORRECCIÓN: Corregido error de escritura tipográfico (de 'if not downgraded' a 'if not descargado')
+                            if not descargado:
                                 print("❌ (Timeout)")
                         except Exception as e:
                             print(f"⚠️ ({str(e)[:20]})")
@@ -120,7 +121,8 @@ class RFEAScraper:
             return downloaded_files
 
         finally:
-            self.driver.quit()
+            if self.driver:
+                self.driver.quit()
 
 
 def download_year(year, headless=True):
