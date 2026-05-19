@@ -14,6 +14,8 @@ class RFEAScraper:
     def __init__(self, year, headless=True):
         self.year = year
         self.base_dir = config.EXCEL_DOWNLOAD_DIR / str(year)
+        # Carpeta temporal exclusiva para las descargas de Selenium en cada iteración
+        self.tmp_download_dir = config.PROJECT_ROOT / "automation" / "tmp_downloads"
         self.headless = headless
         self.driver = None
         self.wait = None
@@ -27,8 +29,9 @@ class RFEAScraper:
         options.add_argument("--disable-gpu")
         options.add_argument("--window-size=1200,800")
 
+        # Configuramos Chrome para que descargue siempre en nuestra carpeta temporal limpia
         prefs = {
-            "download.default_directory": str(self.base_dir),
+            "download.default_directory": str(self.tmp_download_dir),
             "download.prompt_for_download": False,
             "directory_upgrade": True,
         }
@@ -37,15 +40,13 @@ class RFEAScraper:
         self.driver = webdriver.Chrome(options=options)
         self.wait = WebDriverWait(self.driver, config.SELENIUM_WAIT_TIME)
 
-    def get_latest_file(self):
-        archivos = [f for f in glob.glob(str(self.base_dir / "**" / "*.xlsx"), recursive=True)
-                    if not f.endswith('.crdownload')]
-        if not archivos:
-            return None
-        return max(archivos, key=os.path.getmtime)
+    def limpiar_carpeta_temporal(self):
+        """Borra la carpeta temporal y la recrea completamente vacía."""
+        if self.tmp_download_dir.exists():
+            shutil.rmtree(self.tmp_download_dir)
+        os.makedirs(self.tmp_download_dir, exist_ok=True)
 
     def aplicar_filtros_base(self, cat_val, sexo_val):
-        """Aplica de forma segura los filtros de temporada, categoría y sexo."""
         self.driver.get(config.RFEA_URL)
         time.sleep(3)
         Select(self.wait.until(EC.presence_of_element_located((By.ID, "edit-season")))).select_by_value(str(self.year))
@@ -57,6 +58,7 @@ class RFEAScraper:
 
     def download_all(self):
         os.makedirs(self.base_dir, exist_ok=True)
+        self.limpiar_carpeta_temporal()
         self.setup_driver()
 
         try:
@@ -72,7 +74,7 @@ class RFEAScraper:
                     try:
                         self.aplicar_filtros_base(cat_val, sexo_val)
                     except Exception as e:
-                        print(f"   ⚠️ Error crítico aplicando filtros iniciales: {str(e)[:40]}")
+                        print(f"   ⚠️ Error aplicando filtros base: {str(e)[:40]}")
                         continue
 
                     try:
@@ -81,7 +83,7 @@ class RFEAScraper:
                                   if opt.get_attribute("value") and "::" in opt.get_attribute("value")]
                         print(f"   Found {len(pruebas)} events")
                     except Exception as e:
-                        print(f"   ⚠️ No se pudieron extraer los eventos: {str(e)[:40]}")
+                        print(f"   ⚠️ No se pudieron extraer eventos: {str(e)[:40]}")
                         continue
 
                     for p_val, p_text in pruebas:
@@ -94,25 +96,26 @@ class RFEAScraper:
 
                         print(f"   Processing: {p_text}...", end=" ", flush=True)
                         
-                        # Bandera para saber si necesitamos recuperar la página tras un fallo
-                        necesita_recuperacion = False
-                        archivo_antes = self.get_latest_file()
+                        # PASO CLAVE: Vaciamos la carpeta temporal antes de darle al botón
+                        self.limpiar_carpeta_temporal()
 
                         try:
-                            # Aseguramos que el selector de eventos esté disponible en pantalla
                             select_eventos = Select(self.wait.until(EC.presence_of_element_located((By.ID, "edit-event"))))
                             select_eventos.select_by_value(p_val)
-                            time.sleep(3) 
+                            time.sleep(2.5) 
 
                             btn_excel = self.wait.until(EC.element_to_be_clickable((By.ID, "export-excel-btn")))
                             self.driver.execute_script("arguments[0].click();", btn_excel)
 
                             descargado = False
+                            # Esperamos a que aparezca el archivo en la carpeta limpia
                             for _ in range(config.SELENIUM_DOWNLOAD_TIMEOUT):
                                 time.sleep(1)
-                                archivo_actual = self.get_latest_file()
-                                if archivo_actual and archivo_actual != archivo_antes:
-                                    shutil.move(archivo_actual, final_path)
+                                archivos = [f for f in glob.glob(str(self.tmp_download_dir / "*.xlsx")) 
+                                            if not f.endswith('.crdownload')]
+                                
+                                if archivos: # ¡Ha aparecido el archivo!
+                                    shutil.move(archivos[0], final_path)
                                     downloaded_files.append(str(final_path))
                                     print("✅")
                                     descargado = True
@@ -120,21 +123,13 @@ class RFEAScraper:
                             
                             if not descargado:
                                 print("❌ (Timeout)")
-                                necesita_recuperacion = True
+                                # Si da timeout real, refrescamos la web por seguridad
+                                self.aplicar_filtros_base(cat_val, sexo_val)
 
                         except Exception as e:
-                            print(f"⚠️ (Error: {str(e)[:30]})")
-                            necesita_recuperacion = True
-
-                        # MEJORA CLAVE: Si la prueba falló o dio timeout, reiniciamos la web 
-                        # para que la siguiente prueba se ejecute en un entorno totalmente limpio
-                        if necesita_recuperacion:
-                            try:
-                                print("   🔄 Recargando entorno por seguridad...", end="", flush=True)
-                                self.aplicar_filtros_base(cat_val, sexo_val)
-                                print(" Listo.")
-                            except Exception:
-                                print(" Falló recarga. Se reintentará en el siguiente paso.")
+                            print(f"⚠️ (Error: {str(e)[:20]})")
+                            try: self.aplicar_filtros_base(cat_val, sexo_val)
+                            except: pass
 
             print("\n🏁 DOWNLOAD COMPLETE")
             return downloaded_files
@@ -142,6 +137,9 @@ class RFEAScraper:
         finally:
             if self.driver:
                 self.driver.quit()
+            # Limpieza final al terminar el script
+            if self.tmp_download_dir.exists():
+                shutil.rmtree(self.tmp_download_dir)
 
 
 def download_year(year, headless=True):
