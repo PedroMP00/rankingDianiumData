@@ -8,7 +8,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "1.500m FEM. AL Absoluta Femenino 2026",
-    "rank": "504",
+    "rank": "511",
     "temporada": "2026",
     "puntos": 0
   },
@@ -21,7 +21,20 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "1.500m FEM. ST Absoluta Femenino 2026",
-    "rank": "358",
+    "rank": "355",
+    "temporada": "2026",
+    "puntos": 0
+  },
+  {
+    "nombre": "AINA FORNES CATALA",
+    "marca": "1:01.63",
+    "viento": "",
+    "fecha": "24/05/2026",
+    "lugar": "Alicante",
+    "categoria": "Absoluto",
+    "sexo": "Femenino",
+    "prueba": "400m FEM. AL Absoluta Femenino 2026",
+    "rank": "414",
     "temporada": "2026",
     "puntos": 0
   },
@@ -34,7 +47,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "3.000m FEM. AL Absoluta Femenino 2026",
-    "rank": "525",
+    "rank": "528",
     "temporada": "2026",
     "puntos": 0
   },
@@ -47,7 +60,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "800m FEM. AL Absoluta Femenino 2026",
-    "rank": "336",
+    "rank": "345",
     "temporada": "2026",
     "puntos": 0
   },
@@ -60,7 +73,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "600m FEM. AL",
-    "rank": "273",
+    "rank": "280",
     "temporada": "2026",
     "puntos": 0
   },
@@ -73,7 +86,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "100m vallas (0,762)",
-    "rank": "245",
+    "rank": "257",
     "temporada": "2026",
     "puntos": 0
   },
@@ -86,7 +99,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Hexatlón FEM.",
-    "rank": "91",
+    "rank": "99",
     "temporada": "2026",
     "puntos": 0
   },
@@ -112,7 +125,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Jabalina (500g) FEM.",
-    "rank": "275",
+    "rank": "284",
     "temporada": "2026",
     "puntos": 0
   },
@@ -125,7 +138,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Altura FEM. AL",
-    "rank": "459",
+    "rank": "460",
     "temporada": "2026",
     "puntos": 0
   },
@@ -138,7 +151,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Peso (3kg) FEM. AL",
-    "rank": "585",
+    "rank": "594",
     "temporada": "2026",
     "puntos": 0
   },
@@ -151,7 +164,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "3.000m FEM. AL",
-    "rank": "220",
+    "rank": "226",
     "temporada": "2026",
     "puntos": 0
   },
@@ -164,7 +177,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Longitud FEM. AL",
-    "rank": "707",
+    "rank": "717",
     "temporada": "2026",
     "puntos": 0
   },
@@ -177,7 +190,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "600m FEM. AL Absoluta Femenino 2026",
-    "rank": "295",
+    "rank": "308",
     "temporada": "2026",
     "puntos": 0
   },
@@ -203,7 +216,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Altura FEM. AL Absoluta Femenino 2026",
-    "rank": "916",
+    "rank": "923",
     "temporada": "2026",
     "puntos": 0
   },
@@ -216,7 +229,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "3.000m FEM. AL Absoluta Femenino 2026",
-    "rank": "776",
+    "rank": "788",
     "temporada": "2026",
     "puntos": 0
   },
@@ -229,7 +242,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Longitud FEM. AL Absoluta Femenino 2026",
-    "rank": "1463",
+    "rank": "1484",
     "temporada": "2026",
     "puntos": 0
   },
@@ -242,7 +255,7 @@
     "categoria": "Sub 20",
     "sexo": "Femenino",
     "prueba": "60m FEM. AL",
-    "rank": "932",
+    "rank": "935",
     "temporada": "2026",
     "puntos": 0
   },
@@ -255,7 +268,7 @@
     "categoria": "Sub 20",
     "sexo": "Femenino",
     "prueba": "Peso (4kg) FEM. AL",
-    "rank": "113",
+    "rank": "116",
     "temporada": "2026",
     "puntos": 0
   },
@@ -268,7 +281,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "60m FEM. AL Absoluta Femenino 2026",
-    "rank": "1261",
+    "rank": "1264",
     "temporada": "2026",
     "puntos": 0
   },
@@ -281,7 +294,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Peso (4kg) FEM. AL Absoluta Femenino 2026",
-    "rank": "318",
+    "rank": "322",
     "temporada": "2026",
     "puntos": 0
   },
@@ -294,7 +307,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "600m FEM. AL",
-    "rank": "305",
+    "rank": "312",
     "temporada": "2026",
     "puntos": 0
   },
@@ -307,7 +320,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "100m vallas (0,762)",
-    "rank": "213",
+    "rank": "225",
     "temporada": "2026",
     "puntos": 0
   },
@@ -320,7 +333,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Hexatlón FEM.",
-    "rank": "83",
+    "rank": "90",
     "temporada": "2026",
     "puntos": 0
   },
@@ -333,7 +346,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Jabalina (500g) FEM.",
-    "rank": "259",
+    "rank": "265",
     "temporada": "2026",
     "puntos": 0
   },
@@ -346,7 +359,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Triple Salto FEM. AL",
-    "rank": "90",
+    "rank": "91",
     "temporada": "2026",
     "puntos": 0
   },
@@ -359,7 +372,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Altura FEM. AL",
-    "rank": "393",
+    "rank": "394",
     "temporada": "2026",
     "puntos": 0
   },
@@ -372,7 +385,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Peso (3kg) FEM. AL",
-    "rank": "576",
+    "rank": "585",
     "temporada": "2026",
     "puntos": 0
   },
@@ -385,7 +398,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "60m vallas (0,762) FEM.",
-    "rank": "165",
+    "rank": "168",
     "temporada": "2026",
     "puntos": 0
   },
@@ -398,7 +411,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Longitud FEM. AL",
-    "rank": "239",
+    "rank": "246",
     "temporada": "2026",
     "puntos": 0
   },
@@ -411,7 +424,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "600m FEM. AL Absoluta Femenino 2026",
-    "rank": "331",
+    "rank": "344",
     "temporada": "2026",
     "puntos": 0
   },
@@ -424,7 +437,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Triple Salto FEM. AL Absoluta Femenino 2026",
-    "rank": "341",
+    "rank": "346",
     "temporada": "2026",
     "puntos": 0
   },
@@ -437,7 +450,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Altura FEM. AL Absoluta Femenino 2026",
-    "rank": "823",
+    "rank": "830",
     "temporada": "2026",
     "puntos": 0
   },
@@ -450,7 +463,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Longitud FEM. AL Absoluta Femenino 2026",
-    "rank": "795",
+    "rank": "812",
     "temporada": "2026",
     "puntos": 0
   },
@@ -463,7 +476,7 @@
     "categoria": "Sub 18",
     "sexo": "Femenino",
     "prueba": "400m FEM. AL",
-    "rank": "314",
+    "rank": "318",
     "temporada": "2026",
     "puntos": 0
   },
@@ -476,7 +489,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "400m FEM. AL Absoluta Femenino 2026",
-    "rank": "818",
+    "rank": "834",
     "temporada": "2026",
     "puntos": 0
   },
@@ -489,7 +502,7 @@
     "categoria": "Sub 18",
     "sexo": "Femenino",
     "prueba": "1.500m FEM. AL",
-    "rank": "86",
+    "rank": "87",
     "temporada": "2026",
     "puntos": 0
   },
@@ -508,14 +521,14 @@
   },
   {
     "nombre": "ANNA CARAVACA SALA",
-    "marca": "2:26.48",
+    "marca": "2:25.68",
     "viento": "",
-    "fecha": "18/04/2026",
-    "lugar": "Valencia-JAD",
+    "fecha": "23/05/2026",
+    "lugar": "Xátiva",
     "categoria": "Sub 18",
     "sexo": "Femenino",
     "prueba": "800m FEM. AL",
-    "rank": "116",
+    "rank": "108",
     "temporada": "2026",
     "puntos": 0
   },
@@ -528,7 +541,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "1.500m FEM. AL Absoluta Femenino 2026",
-    "rank": "402",
+    "rank": "407",
     "temporada": "2026",
     "puntos": 0
   },
@@ -541,20 +554,20 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "1.500m FEM. ST Absoluta Femenino 2026",
-    "rank": "346",
+    "rank": "343",
     "temporada": "2026",
     "puntos": 0
   },
   {
     "nombre": "ANNA CARAVACA SALA",
-    "marca": "2:26.48",
+    "marca": "2:25.68",
     "viento": "",
-    "fecha": "18/04/2026",
-    "lugar": "Valencia-JAD",
+    "fecha": "23/05/2026",
+    "lugar": "Xátiva",
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "800m FEM. AL Absoluta Femenino 2026",
-    "rank": "423",
+    "rank": "412",
     "temporada": "2026",
     "puntos": 0
   },
@@ -564,10 +577,10 @@
     "viento": "",
     "fecha": "11/04/2026",
     "lugar": "Denia",
-    "categoria": "Sub 14",
+    "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "3.000m Marcha MASC. en pista",
-    "rank": "3",
+    "rank": "50",
     "temporada": "2026",
     "puntos": 0
   },
@@ -577,10 +590,10 @@
     "viento": "",
     "fecha": "19/04/2026",
     "lugar": "Elda",
-    "categoria": "Sub 14",
+    "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "Altura MASC. AL",
-    "rank": "124",
+    "rank": "402",
     "temporada": "2026",
     "puntos": 0
   },
@@ -590,114 +603,10 @@
     "viento": "1.7",
     "fecha": "18/04/2026",
     "lugar": "Elda",
-    "categoria": "Sub 14",
+    "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "Longitud MASC. AL",
-    "rank": "199",
-    "temporada": "2026",
-    "puntos": 0
-  },
-  {
-    "nombre": "ASHER HARTER AMOROS",
-    "marca": "12.58",
-    "viento": "0.1",
-    "fecha": "02/05/2026",
-    "lugar": "Elche",
-    "categoria": "Sub 14",
-    "sexo": "Masculino",
-    "prueba": "80m MASC. AL",
-    "rank": "204",
-    "temporada": "2026",
-    "puntos": 0
-  },
-  {
-    "nombre": "ASHER HARTER AMOROS",
-    "marca": "11.9",
-    "viento": "",
-    "fecha": "19/04/2026",
-    "lugar": "Elda",
-    "categoria": "Sub 14",
-    "sexo": "Masculino",
-    "prueba": "Jabalina (500g) MASC.",
-    "rank": "197",
-    "temporada": "2026",
-    "puntos": 0
-  },
-  {
-    "nombre": "ASHER HARTER AMOROS",
-    "marca": "1026",
-    "viento": "",
-    "fecha": "18/04/2026",
-    "lugar": "Elda",
-    "categoria": "Sub 14",
-    "sexo": "Masculino",
-    "prueba": "Hexatlón MASC.",
-    "rank": "47",
-    "temporada": "2026",
-    "puntos": 0
-  },
-  {
-    "nombre": "ASHER HARTER AMOROS",
-    "marca": "6.3",
-    "viento": "",
-    "fecha": "18/04/2026",
-    "lugar": "Elda",
-    "categoria": "Sub 14",
-    "sexo": "Masculino",
-    "prueba": "Peso (3kg) MASC. AL",
-    "rank": "152",
-    "temporada": "2026",
-    "puntos": 0
-  },
-  {
-    "nombre": "ASHER HARTER AMOROS",
-    "marca": "10:39.93",
-    "viento": "",
-    "fecha": "25/04/2026",
-    "lugar": "Denia",
-    "categoria": "Sub 14",
-    "sexo": "Masculino",
-    "prueba": "2.000m Marcha MASC. en pista",
-    "rank": "19",
-    "temporada": "2026",
-    "puntos": 0
-  },
-  {
-    "nombre": "ASHER HARTER AMOROS",
-    "marca": "18.3",
-    "viento": "-0.7",
-    "fecha": "19/04/2026",
-    "lugar": "Elda",
-    "categoria": "Sub 14",
-    "sexo": "Masculino",
-    "prueba": "80m vallas (0,84) MASC. AL",
-    "rank": "144",
-    "temporada": "2026",
-    "puntos": 0
-  },
-  {
-    "nombre": "ASHER HARTER AMOROS",
-    "marca": "810",
-    "viento": "",
-    "fecha": "28/03/2026",
-    "lugar": "Alicante",
-    "categoria": "Sub 14",
-    "sexo": "Masculino",
-    "prueba": "Triatlón E",
-    "rank": "21",
-    "temporada": "2026",
-    "puntos": 0
-  },
-  {
-    "nombre": "ASHER HARTER AMOROS",
-    "marca": "23.3",
-    "viento": "0.0",
-    "fecha": "11/04/2026",
-    "lugar": "Denia",
-    "categoria": "Sub 14",
-    "sexo": "Masculino",
-    "prueba": "150m MASC. AL",
-    "rank": "100",
+    "rank": "558",
     "temporada": "2026",
     "puntos": 0
   },
@@ -710,7 +619,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "3.000m Marcha MASC. en pista Absoluta Masculino 2026",
-    "rank": "119",
+    "rank": "122",
     "temporada": "2026",
     "puntos": 0
   },
@@ -723,7 +632,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Altura MASC. AL Absoluta Masculino 2026",
-    "rank": "1002",
+    "rank": "1014",
     "temporada": "2026",
     "puntos": 0
   },
@@ -736,7 +645,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Longitud MASC. AL Absoluta Masculino 2026",
-    "rank": "1377",
+    "rank": "1394",
     "temporada": "2026",
     "puntos": 0
   },
@@ -749,7 +658,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "150m MASC. AL Absoluta Masculino 2026",
-    "rank": "146",
+    "rank": "147",
     "temporada": "2026",
     "puntos": 0
   },
@@ -762,7 +671,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Pértiga MASC. AL Absoluta Masculino 2026",
-    "rank": "488",
+    "rank": "491",
     "temporada": "2026",
     "puntos": 0
   },
@@ -775,7 +684,7 @@
     "categoria": "Sub 23",
     "sexo": "Masculino",
     "prueba": "Martillo (7,260kg) MASC.",
-    "rank": "46",
+    "rank": "49",
     "temporada": "2026",
     "puntos": 0
   },
@@ -788,7 +697,7 @@
     "categoria": "Sub 23",
     "sexo": "Masculino",
     "prueba": "Peso (7,260kg) MASC. AL",
-    "rank": "99",
+    "rank": "102",
     "temporada": "2026",
     "puntos": 0
   },
@@ -801,7 +710,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Martillo (7,260kg) MASC. Absoluta Masculino 2026",
-    "rank": "166",
+    "rank": "170",
     "temporada": "2026",
     "puntos": 0
   },
@@ -814,7 +723,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Peso (7,260kg) MASC. AL Absoluta Masculino 2026",
-    "rank": "308",
+    "rank": "313",
     "temporada": "2026",
     "puntos": 0
   },
@@ -840,7 +749,7 @@
     "categoria": "Sub 20",
     "sexo": "Masculino",
     "prueba": "100m MASC. AL",
-    "rank": "58",
+    "rank": "62",
     "temporada": "2026",
     "puntos": 0
   },
@@ -866,7 +775,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "100m MASC. AL Absoluta Masculino 2026",
-    "rank": "179",
+    "rank": "207",
     "temporada": "2026",
     "puntos": 0
   },
@@ -892,7 +801,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "1.500m MASC. AL Absoluta Masculino 2026",
-    "rank": "525",
+    "rank": "536",
     "temporada": "2026",
     "puntos": 0
   },
@@ -905,7 +814,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "1.500m MASC. ST Absoluta Masculino 2026",
-    "rank": "370",
+    "rank": "369",
     "temporada": "2026",
     "puntos": 0
   },
@@ -931,7 +840,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "400m MASC. AL Absoluta Masculino 2026",
-    "rank": "608",
+    "rank": "619",
     "temporada": "2026",
     "puntos": 0
   },
@@ -944,7 +853,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "800m MASC. AL Absoluta Masculino 2026",
-    "rank": "257",
+    "rank": "273",
     "temporada": "2026",
     "puntos": 0
   },
@@ -957,7 +866,20 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "60m MASC. AL",
-    "rank": "230",
+    "rank": "233",
+    "temporada": "2026",
+    "puntos": 0
+  },
+  {
+    "nombre": "DANIEL REIG SUCH",
+    "marca": "30.94",
+    "viento": "",
+    "fecha": "11/01/2026",
+    "lugar": "Alicante",
+    "categoria": "Sub 16",
+    "sexo": "Masculino",
+    "prueba": "Disco (1kg) MASC.",
+    "rank": "79",
     "temporada": "2026",
     "puntos": 0
   },
@@ -983,20 +905,33 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "100m MASC. AL",
-    "rank": "184",
+    "rank": "193",
     "temporada": "2026",
     "puntos": 0
   },
   {
     "nombre": "DANIEL REIG SUCH",
-    "marca": "1:27.42",
+    "marca": "42.64",
     "viento": "",
-    "fecha": "21/02/2026",
-    "lugar": "La Nucía",
+    "fecha": "03/05/2026",
+    "lugar": "Elche",
+    "categoria": "Sub 16",
+    "sexo": "Masculino",
+    "prueba": "300m vallas (0,84) MASC. AL",
+    "rank": "29",
+    "temporada": "2026",
+    "puntos": 0
+  },
+  {
+    "nombre": "DANIEL REIG SUCH",
+    "marca": "1:25.91",
+    "viento": "",
+    "fecha": "23/05/2026",
+    "lugar": "Elche",
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "600m MASC. AL",
-    "rank": "24",
+    "rank": "15",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1074,7 +1009,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "Jabalina (600g) MASC.",
-    "rank": "52",
+    "rank": "55",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1087,7 +1022,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "100m vallas (0,91) MASC. AL",
-    "rank": "59",
+    "rank": "66",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1113,7 +1048,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "1.000m MASC. AL",
-    "rank": "79",
+    "rank": "87",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1126,7 +1061,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "60m MASC. AL Absoluta Masculino 2026",
-    "rank": "1516",
+    "rank": "1521",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1139,20 +1074,20 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "100m MASC. AL Absoluta Masculino 2026",
-    "rank": "955",
+    "rank": "1035",
     "temporada": "2026",
     "puntos": 0
   },
   {
     "nombre": "DANIEL REIG SUCH",
-    "marca": "1:27.42",
+    "marca": "1:25.91",
     "viento": "",
-    "fecha": "21/02/2026",
-    "lugar": "La Nucía",
+    "fecha": "23/05/2026",
+    "lugar": "Elche",
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "600m MASC. AL Absoluta Masculino 2026",
-    "rank": "41",
+    "rank": "33",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1178,7 +1113,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Altura MASC. AL Absoluta Masculino 2026",
-    "rank": "422",
+    "rank": "428",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1191,7 +1126,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Pértiga MASC. AL Absoluta Masculino 2026",
-    "rank": "555",
+    "rank": "559",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1204,7 +1139,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "1.000m MASC. AL Absoluta Masculino 2026",
-    "rank": "144",
+    "rank": "153",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1230,7 +1165,7 @@
     "categoria": "Sub 20",
     "sexo": "Masculino",
     "prueba": "1.500m MASC. AL",
-    "rank": "348",
+    "rank": "351",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1243,7 +1178,7 @@
     "categoria": "Sub 20",
     "sexo": "Masculino",
     "prueba": "3.000m MASC. AL",
-    "rank": "407",
+    "rank": "417",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1256,7 +1191,7 @@
     "categoria": "Sub 20",
     "sexo": "Masculino",
     "prueba": "800m MASC. AL",
-    "rank": "161",
+    "rank": "166",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1282,7 +1217,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "1.500m MASC. AL Absoluta Masculino 2026",
-    "rank": "849",
+    "rank": "864",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1295,7 +1230,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "3.000m MASC. AL Absoluta Masculino 2026",
-    "rank": "966",
+    "rank": "988",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1308,7 +1243,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "800m MASC. AL Absoluta Masculino 2026",
-    "rank": "414",
+    "rank": "430",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1321,7 +1256,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "1.500m MASC. AL",
-    "rank": "386",
+    "rank": "393",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1334,7 +1269,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "60m MASC. AL",
-    "rank": "276",
+    "rank": "277",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1347,7 +1282,7 @@
     "categoria": "Sub 20",
     "sexo": "Masculino",
     "prueba": "Jabalina (800g) MASC.",
-    "rank": "66",
+    "rank": "68",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1373,7 +1308,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "Altura MASC. AL",
-    "rank": "29",
+    "rank": "30",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1386,7 +1321,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "400m MASC. AL",
-    "rank": "247",
+    "rank": "256",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1399,7 +1334,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "Pértiga MASC. AL",
-    "rank": "27",
+    "rank": "28",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1412,7 +1347,7 @@
     "categoria": "Sub 20",
     "sexo": "Masculino",
     "prueba": "1.000m MASC. AL",
-    "rank": "445",
+    "rank": "451",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1422,10 +1357,10 @@
     "viento": "",
     "fecha": "06/02/2026",
     "lugar": "Valencia (i)",
-    "categoria": "Sub 20",
+    "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "Longitud MASC. AL",
-    "rank": "153",
+    "rank": "81",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1464,7 +1399,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "110m vallas (0,914) MASC. AL",
-    "rank": "22",
+    "rank": "23",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1477,7 +1412,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "Decatlón MASC.",
-    "rank": "5",
+    "rank": "7",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1490,7 +1425,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "Peso (5kg) MASC. AL",
-    "rank": "46",
+    "rank": "47",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1529,7 +1464,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "1.500m MASC. AL Absoluta Masculino 2026",
-    "rank": "1468",
+    "rank": "1501",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1542,7 +1477,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "60m MASC. AL Absoluta Masculino 2026",
-    "rank": "1031",
+    "rank": "1032",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1555,7 +1490,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Jabalina (800g) MASC. Absoluta Masculino 2026",
-    "rank": "193",
+    "rank": "197",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1568,7 +1503,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "1.000m MASC. ST Absoluta Masculino 2026",
-    "rank": "288",
+    "rank": "290",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1581,7 +1516,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Altura MASC. AL Absoluta Masculino 2026",
-    "rank": "167",
+    "rank": "169",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1594,7 +1529,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "400m MASC. AL Absoluta Masculino 2026",
-    "rank": "930",
+    "rank": "957",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1607,7 +1542,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Pértiga MASC. AL Absoluta Masculino 2026",
-    "rank": "178",
+    "rank": "177",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1620,7 +1555,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "1.000m MASC. AL Absoluta Masculino 2026",
-    "rank": "518",
+    "rank": "526",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1633,7 +1568,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Longitud MASC. AL Absoluta Masculino 2026",
-    "rank": "344",
+    "rank": "349",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1659,7 +1594,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Martillo (4kg) FEM. Absoluta Femenino 2026",
-    "rank": "131",
+    "rank": "132",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1672,7 +1607,7 @@
     "categoria": "Sub 23",
     "sexo": "Masculino",
     "prueba": "400m vallas (0,91) MASC. AL",
-    "rank": "49",
+    "rank": "50",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1685,7 +1620,7 @@
     "categoria": "Sub 23",
     "sexo": "Masculino",
     "prueba": "3.000m Obst. MASC.",
-    "rank": "103",
+    "rank": "106",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1698,7 +1633,7 @@
     "categoria": "Sub 23",
     "sexo": "Masculino",
     "prueba": "Altura MASC. AL",
-    "rank": "442",
+    "rank": "447",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1711,7 +1646,7 @@
     "categoria": "Sub 23",
     "sexo": "Masculino",
     "prueba": "200m MASC. AL",
-    "rank": "512",
+    "rank": "528",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1750,7 +1685,7 @@
     "categoria": "Sub 23",
     "sexo": "Masculino",
     "prueba": "Peso (7,260kg) MASC. AL",
-    "rank": "116",
+    "rank": "119",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1763,7 +1698,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "400m vallas (0,91) MASC. AL Absoluta Masculino 2026",
-    "rank": "92",
+    "rank": "94",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1776,7 +1711,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "3.000m Obst. MASC. Absoluta Masculino 2026",
-    "rank": "183",
+    "rank": "188",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1789,7 +1724,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Altura MASC. AL Absoluta Masculino 2026",
-    "rank": "585",
+    "rank": "594",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1802,7 +1737,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "200m MASC. AL Absoluta Masculino 2026",
-    "rank": "774",
+    "rank": "797",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1815,7 +1750,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "60m vallas (1,067) MASC. AL Absoluta Masculino 2026",
-    "rank": "142",
+    "rank": "144",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1841,7 +1776,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Peso (7,260kg) MASC. AL Absoluta Masculino 2026",
-    "rank": "386",
+    "rank": "391",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1851,10 +1786,10 @@
     "viento": "1.1",
     "fecha": "10/01/2026",
     "lugar": "Petrer",
-    "categoria": "Sub 14",
+    "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "60m MASC. AL",
-    "rank": "84",
+    "rank": "484",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1864,10 +1799,10 @@
     "viento": "",
     "fecha": "31/01/2026",
     "lugar": "Valencia (i)",
-    "categoria": "Sub 14",
+    "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "1.000m MASC. ST",
-    "rank": "25",
+    "rank": "198",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1877,10 +1812,10 @@
     "viento": "2.0",
     "fecha": "09/05/2026",
     "lugar": "Valencia-JAD",
-    "categoria": "Sub 14",
+    "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "Triple Salto MASC. AL",
-    "rank": "8",
+    "rank": "114",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1890,10 +1825,10 @@
     "viento": "",
     "fecha": "19/04/2026",
     "lugar": "Elda",
-    "categoria": "Sub 14",
+    "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "Altura MASC. AL",
-    "rank": "28",
+    "rank": "219",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1903,10 +1838,10 @@
     "viento": "",
     "fecha": "10/01/2026",
     "lugar": "Petrer",
-    "categoria": "Sub 14",
+    "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "Pértiga MASC. AL",
-    "rank": "18",
+    "rank": "162",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1916,10 +1851,10 @@
     "viento": "",
     "fecha": "31/01/2026",
     "lugar": "Valencia (i)",
-    "categoria": "Sub 14",
+    "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "1.000m MASC. AL",
-    "rank": "80",
+    "rank": "429",
     "temporada": "2026",
     "puntos": 0
   },
@@ -1929,140 +1864,10 @@
     "viento": "1.6",
     "fecha": "16/05/2026",
     "lugar": "Denia",
-    "categoria": "Sub 14",
+    "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "Longitud MASC. AL",
-    "rank": "21",
-    "temporada": "2026",
-    "puntos": 0
-  },
-  {
-    "nombre": "ERIK AMIL BARBEITO",
-    "marca": "1:27.30",
-    "viento": "",
-    "fecha": "07/03/2026",
-    "lugar": "Valencia (i)",
-    "categoria": "Sub 14",
-    "sexo": "Masculino",
-    "prueba": "500m MASC. ST",
-    "rank": "23",
-    "temporada": "2026",
-    "puntos": 0
-  },
-  {
-    "nombre": "ERIK AMIL BARBEITO",
-    "marca": "11.23",
-    "viento": "0.4",
-    "fecha": "16/05/2026",
-    "lugar": "Denia",
-    "categoria": "Sub 14",
-    "sexo": "Masculino",
-    "prueba": "80m MASC. AL",
-    "rank": "70",
-    "temporada": "2026",
-    "puntos": 0
-  },
-  {
-    "nombre": "ERIK AMIL BARBEITO",
-    "marca": "1:27.30",
-    "viento": "",
-    "fecha": "07/03/2026",
-    "lugar": "Valencia (i)",
-    "categoria": "Sub 14",
-    "sexo": "Masculino",
-    "prueba": "500m MASC. AL",
-    "rank": "64",
-    "temporada": "2026",
-    "puntos": 0
-  },
-  {
-    "nombre": "ERIK AMIL BARBEITO",
-    "marca": "1030",
-    "viento": "",
-    "fecha": "28/03/2026",
-    "lugar": "Alicante",
-    "categoria": "Sub 14",
-    "sexo": "Masculino",
-    "prueba": "Triatlón B",
-    "rank": "21",
-    "temporada": "2026",
-    "puntos": 0
-  },
-  {
-    "nombre": "ERIK AMIL BARBEITO",
-    "marca": "28.02",
-    "viento": "",
-    "fecha": "11/04/2026",
-    "lugar": "Denia",
-    "categoria": "Sub 14",
-    "sexo": "Masculino",
-    "prueba": "Jabalina (500g) MASC.",
-    "rank": "19",
-    "temporada": "2026",
-    "puntos": 0
-  },
-  {
-    "nombre": "ERIK AMIL BARBEITO",
-    "marca": "1983",
-    "viento": "",
-    "fecha": "16/05/2026",
-    "lugar": "Denia",
-    "categoria": "Sub 14",
-    "sexo": "Masculino",
-    "prueba": "Hexatlón MASC.",
-    "rank": "15",
-    "temporada": "2026",
-    "puntos": 0
-  },
-  {
-    "nombre": "ERIK AMIL BARBEITO",
-    "marca": "3:33.90",
-    "viento": "",
-    "fecha": "02/05/2026",
-    "lugar": "Elche",
-    "categoria": "Sub 14",
-    "sexo": "Masculino",
-    "prueba": "1.000m Obst. MASC.(con Ria)",
-    "rank": "23",
-    "temporada": "2026",
-    "puntos": 0
-  },
-  {
-    "nombre": "ERIK AMIL BARBEITO",
-    "marca": "8.65",
-    "viento": "",
-    "fecha": "16/05/2026",
-    "lugar": "Denia",
-    "categoria": "Sub 14",
-    "sexo": "Masculino",
-    "prueba": "Peso (3kg) MASC. AL",
-    "rank": "55",
-    "temporada": "2026",
-    "puntos": 0
-  },
-  {
-    "nombre": "ERIK AMIL BARBEITO",
-    "marca": "15.98",
-    "viento": "-3.1",
-    "fecha": "17/05/2026",
-    "lugar": "Denia",
-    "categoria": "Sub 14",
-    "sexo": "Masculino",
-    "prueba": "80m vallas (0,84) MASC. AL",
-    "rank": "93",
-    "temporada": "2026",
-    "puntos": 0
-  },
-  {
-    "nombre": "ERIK AMIL BARBEITO",
-    "marca": "33.94",
-    "viento": "",
-    "fecha": "09/05/2026",
-    "lugar": "Valencia-JAD",
-    "categoria": "Sub 14",
-    "sexo": "Masculino",
-    "prueba": "220m vallas (0,76) MASC. AL",
-    "rank": "18",
+    "rank": "236",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2075,7 +1880,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "60m MASC. AL Absoluta Masculino 2026",
-    "rank": "1964",
+    "rank": "1971",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2101,7 +1906,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "500m MASC. AL Absoluta Masculino 2026",
-    "rank": "67",
+    "rank": "73",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2114,7 +1919,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "1.000m MASC. ST Absoluta Masculino 2026",
-    "rank": "344",
+    "rank": "347",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2127,7 +1932,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Triple Salto MASC. AL Absoluta Masculino 2026",
-    "rank": "452",
+    "rank": "460",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2140,7 +1945,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Altura MASC. AL Absoluta Masculino 2026",
-    "rank": "746",
+    "rank": "759",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2153,7 +1958,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Pértiga MASC. AL Absoluta Masculino 2026",
-    "rank": "623",
+    "rank": "628",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2166,7 +1971,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "1.000m MASC. AL Absoluta Masculino 2026",
-    "rank": "618",
+    "rank": "624",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2179,7 +1984,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Longitud MASC. AL Absoluta Masculino 2026",
-    "rank": "925",
+    "rank": "945",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2192,7 +1997,7 @@
     "categoria": "Sub 20",
     "sexo": "Femenino",
     "prueba": "60m FEM. AL",
-    "rank": "733",
+    "rank": "735",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2205,7 +2010,7 @@
     "categoria": "Sub 20",
     "sexo": "Femenino",
     "prueba": "100m vallas (0,84) FEM. AL",
-    "rank": "64",
+    "rank": "69",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2218,7 +2023,7 @@
     "categoria": "Sub 20",
     "sexo": "Femenino",
     "prueba": "Altura FEM. AL",
-    "rank": "84",
+    "rank": "85",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2231,7 +2036,7 @@
     "categoria": "Sub 20",
     "sexo": "Femenino",
     "prueba": "200m FEM. AL",
-    "rank": "651",
+    "rank": "677",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2270,7 +2075,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "60m FEM. AL Absoluta Femenino 2026",
-    "rank": "1036",
+    "rank": "1039",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2283,7 +2088,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "100m vallas (0,84) FEM. AL Absoluta Femenino 2026",
-    "rank": "159",
+    "rank": "172",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2296,7 +2101,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Altura FEM. AL Absoluta Femenino 2026",
-    "rank": "142",
+    "rank": "143",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2309,7 +2114,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "200m FEM. AL Absoluta Femenino 2026",
-    "rank": "1035",
+    "rank": "1071",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2322,7 +2127,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Jabalina (600g) FEM. Absoluta Femenino 2026",
-    "rank": "174",
+    "rank": "177",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2348,7 +2153,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "60m MASC. AL Absoluta Masculino 2026",
-    "rank": "1926",
+    "rank": "1933",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2361,7 +2166,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "100m MASC. AL Absoluta Masculino 2026",
-    "rank": "1343",
+    "rank": "1436",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2374,7 +2179,7 @@
     "categoria": "Sub 23",
     "sexo": "Masculino",
     "prueba": "Pértiga MASC. AL",
-    "rank": "92",
+    "rank": "91",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2387,7 +2192,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Pértiga MASC. AL Absoluta Masculino 2026",
-    "rank": "162",
+    "rank": "160",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2400,7 +2205,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "1.500m MASC. AL",
-    "rank": "357",
+    "rank": "364",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2439,7 +2244,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "Triple Salto MASC. AL",
-    "rank": "16",
+    "rank": "17",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2452,7 +2257,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "Altura MASC. AL",
-    "rank": "99",
+    "rank": "103",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2478,7 +2283,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "400m MASC. AL",
-    "rank": "133",
+    "rank": "136",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2504,7 +2309,7 @@
     "categoria": "Sub 20",
     "sexo": "Masculino",
     "prueba": "1.000m MASC. AL",
-    "rank": "329",
+    "rank": "338",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2514,10 +2319,10 @@
     "viento": "",
     "fecha": "21/02/2026",
     "lugar": "Sabadell (i)",
-    "categoria": "Sub 20",
+    "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "Longitud MASC. AL",
-    "rank": "170",
+    "rank": "94",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2556,7 +2361,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "110m vallas (0,914) MASC. AL",
-    "rank": "38",
+    "rank": "41",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2569,20 +2374,20 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "Decatlón MASC.",
-    "rank": "8",
+    "rank": "10",
     "temporada": "2026",
     "puntos": 0
   },
   {
     "nombre": "IVAN DELGADO SERER",
-    "marca": "57.97",
+    "marca": "57.07",
     "viento": "",
-    "fecha": "10/05/2026",
-    "lugar": "Sagunto",
+    "fecha": "24/05/2026",
+    "lugar": "Alicante",
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "400m vallas (0,84) MASC. AL",
-    "rank": "19",
+    "rank": "17",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2595,7 +2400,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "Peso (5kg) MASC. AL",
-    "rank": "52",
+    "rank": "54",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2608,20 +2413,20 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "Disco (1,5kg) MASC.",
-    "rank": "51",
+    "rank": "52",
     "temporada": "2026",
     "puntos": 0
   },
   {
     "nombre": "IVAN DELGADO SERER",
-    "marca": "33.71",
+    "marca": "36.39",
     "viento": "",
-    "fecha": "19/04/2026",
-    "lugar": "Castellón-MGH",
+    "fecha": "24/05/2026",
+    "lugar": "Alicante",
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "Jabalina (700g) MASC.",
-    "rank": "79",
+    "rank": "66",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2634,7 +2439,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "1.500m MASC. AL Absoluta Masculino 2026",
-    "rank": "1371",
+    "rank": "1403",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2673,7 +2478,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Triple Salto MASC. AL Absoluta Masculino 2026",
-    "rank": "92",
+    "rank": "91",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2686,7 +2491,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Altura MASC. AL Absoluta Masculino 2026",
-    "rank": "300",
+    "rank": "307",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2699,7 +2504,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "400m MASC. ST Absoluta Masculino 2026",
-    "rank": "515",
+    "rank": "516",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2712,7 +2517,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "400m MASC. AL Absoluta Masculino 2026",
-    "rank": "652",
+    "rank": "666",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2725,7 +2530,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Pértiga MASC. AL Absoluta Masculino 2026",
-    "rank": "218",
+    "rank": "216",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2738,7 +2543,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "1.000m MASC. AL Absoluta Masculino 2026",
-    "rank": "389",
+    "rank": "398",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2751,7 +2556,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Longitud MASC. AL Absoluta Masculino 2026",
-    "rank": "368",
+    "rank": "374",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2764,7 +2569,7 @@
     "categoria": "Sub 20",
     "sexo": "Masculino",
     "prueba": "1.500m MASC. AL",
-    "rank": "613",
+    "rank": "624",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2790,7 +2595,7 @@
     "categoria": "Sub 20",
     "sexo": "Masculino",
     "prueba": "Jabalina (800g) MASC.",
-    "rank": "84",
+    "rank": "88",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2816,7 +2621,7 @@
     "categoria": "Sub 20",
     "sexo": "Masculino",
     "prueba": "Triple Salto MASC. AL",
-    "rank": "115",
+    "rank": "116",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2842,7 +2647,7 @@
     "categoria": "Sub 20",
     "sexo": "Masculino",
     "prueba": "400m MASC. AL",
-    "rank": "482",
+    "rank": "498",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2868,7 +2673,7 @@
     "categoria": "Sub 20",
     "sexo": "Masculino",
     "prueba": "1.000m MASC. AL",
-    "rank": "332",
+    "rank": "341",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2881,7 +2686,7 @@
     "categoria": "Sub 20",
     "sexo": "Masculino",
     "prueba": "Longitud MASC. AL",
-    "rank": "137",
+    "rank": "144",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2894,7 +2699,7 @@
     "categoria": "Sub 20",
     "sexo": "Masculino",
     "prueba": "Disco (1,750kg) MASC.",
-    "rank": "70",
+    "rank": "73",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2907,7 +2712,7 @@
     "categoria": "Sub 20",
     "sexo": "Masculino",
     "prueba": "110m vallas (1,00) MASC. AL",
-    "rank": "36",
+    "rank": "39",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2920,7 +2725,20 @@
     "categoria": "Sub 20",
     "sexo": "Masculino",
     "prueba": "Peso (6kg) MASC. AL",
-    "rank": "89",
+    "rank": "92",
+    "temporada": "2026",
+    "puntos": 0
+  },
+  {
+    "nombre": "IVAN GOMEZ MARTINEZ",
+    "marca": "5054",
+    "viento": "",
+    "fecha": "18/04/2026",
+    "lugar": "Castellón-MGH",
+    "categoria": "Sub 20",
+    "sexo": "Masculino",
+    "prueba": "Decatlón MASC.",
+    "rank": "18",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2959,7 +2777,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "1.500m MASC. AL Absoluta Masculino 2026",
-    "rank": "1416",
+    "rank": "1448",
     "temporada": "2026",
     "puntos": 0
   },
@@ -2985,7 +2803,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Jabalina (800g) MASC. Absoluta Masculino 2026",
-    "rank": "243",
+    "rank": "250",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3024,7 +2842,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Altura MASC. AL Absoluta Masculino 2026",
-    "rank": "156",
+    "rank": "157",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3037,7 +2855,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "400m MASC. AL Absoluta Masculino 2026",
-    "rank": "987",
+    "rank": "1017",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3050,7 +2868,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Pértiga MASC. AL Absoluta Masculino 2026",
-    "rank": "231",
+    "rank": "230",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3063,7 +2881,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "1.000m MASC. AL Absoluta Masculino 2026",
-    "rank": "394",
+    "rank": "403",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3076,7 +2894,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Longitud MASC. AL Absoluta Masculino 2026",
-    "rank": "318",
+    "rank": "326",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3102,7 +2920,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "100m MASC. AL Absoluta Masculino 2026",
-    "rank": "664",
+    "rank": "735",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3115,7 +2933,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "200m MASC. AL Absoluta Masculino 2026",
-    "rank": "687",
+    "rank": "711",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3128,7 +2946,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "4x100m MASC. AL Absoluta Masculino 2026",
-    "rank": "73",
+    "rank": "76",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3141,7 +2959,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "60m MASC. AL",
-    "rank": "434",
+    "rank": "437",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3154,7 +2972,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "100m MASC. AL",
-    "rank": "214",
+    "rank": "237",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3164,10 +2982,10 @@
     "viento": "-1.3",
     "fecha": "16/05/2026",
     "lugar": "Denia",
-    "categoria": "Sub 20",
+    "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "200m MASC. AL",
-    "rank": "308",
+    "rank": "153",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3180,7 +2998,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "60m MASC. AL Absoluta Masculino 2026",
-    "rank": "1305",
+    "rank": "1308",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3193,7 +3011,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "100m MASC. AL Absoluta Masculino 2026",
-    "rank": "667",
+    "rank": "739",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3206,7 +3024,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "200m MASC. AL Absoluta Masculino 2026",
-    "rank": "724",
+    "rank": "748",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3258,7 +3076,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "3.000m MASC. AL",
-    "rank": "55",
+    "rank": "57",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3271,7 +3089,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "1.500m MASC. AL Absoluta Masculino 2026",
-    "rank": "392",
+    "rank": "402",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3297,7 +3115,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "1.500m MASC. ST Absoluta Masculino 2026",
-    "rank": "387",
+    "rank": "386",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3310,7 +3128,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "3.000m MASC. AL Absoluta Masculino 2026",
-    "rank": "430",
+    "rank": "445",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3323,7 +3141,20 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "60m MASC. AL",
-    "rank": "249",
+    "rank": "253",
+    "temporada": "2026",
+    "puntos": 0
+  },
+  {
+    "nombre": "JOAN CARRIO CARRIO",
+    "marca": "39.65",
+    "viento": "",
+    "fecha": "25/04/2026",
+    "lugar": "Denia",
+    "categoria": "Sub 16",
+    "sexo": "Masculino",
+    "prueba": "Disco (1kg) MASC.",
+    "rank": "29",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3336,7 +3167,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "300m MASC. AL",
-    "rank": "194",
+    "rank": "200",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3349,7 +3180,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "Triple Salto MASC. AL",
-    "rank": "61",
+    "rank": "64",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3368,14 +3199,14 @@
   },
   {
     "nombre": "JOAN CARRIO CARRIO",
-    "marca": "43.45",
+    "marca": "43.89",
     "viento": "",
-    "fecha": "03/05/2026",
-    "lugar": "Elche",
+    "fecha": "24/05/2026",
+    "lugar": "Alicante",
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "Martillo (4kg) MASC.",
-    "rank": "17",
+    "rank": "18",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3388,7 +3219,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "Longitud MASC. AL",
-    "rank": "170",
+    "rank": "179",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3401,7 +3232,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "60m MASC. AL Absoluta Masculino 2026",
-    "rank": "1550",
+    "rank": "1556",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3414,7 +3245,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "300m MASC. AL Absoluta Masculino 2026",
-    "rank": "250",
+    "rank": "257",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3427,7 +3258,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Triple Salto MASC. AL Absoluta Masculino 2026",
-    "rank": "362",
+    "rank": "370",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3440,7 +3271,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Longitud MASC. AL Absoluta Masculino 2026",
-    "rank": "823",
+    "rank": "844",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3466,7 +3297,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "60m MASC. AL",
-    "rank": "565",
+    "rank": "569",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3479,7 +3310,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "100m MASC. AL",
-    "rank": "457",
+    "rank": "482",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3489,10 +3320,10 @@
     "viento": "-1.4",
     "fecha": "16/05/2026",
     "lugar": "Denia",
-    "categoria": "Sub 20",
+    "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "200m MASC. AL",
-    "rank": "466",
+    "rank": "254",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3505,7 +3336,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "400m MASC. AL",
-    "rank": "163",
+    "rank": "166",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3518,7 +3349,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "800m MASC. AL",
-    "rank": "144",
+    "rank": "154",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3531,7 +3362,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "800m MASC. ST Absoluta Masculino 2026",
-    "rank": "511",
+    "rank": "512",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3544,7 +3375,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "60m MASC. AL Absoluta Masculino 2026",
-    "rank": "1514",
+    "rank": "1519",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3557,7 +3388,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "100m MASC. AL Absoluta Masculino 2026",
-    "rank": "1019",
+    "rank": "1100",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3570,7 +3401,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "200m MASC. AL Absoluta Masculino 2026",
-    "rank": "954",
+    "rank": "978",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3583,7 +3414,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "400m MASC. AL Absoluta Masculino 2026",
-    "rank": "734",
+    "rank": "749",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3596,7 +3427,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "800m MASC. AL Absoluta Masculino 2026",
-    "rank": "668",
+    "rank": "702",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3609,7 +3440,20 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "60m MASC. AL",
-    "rank": "405",
+    "rank": "410",
+    "temporada": "2026",
+    "puntos": 0
+  },
+  {
+    "nombre": "JOAN MULET BAS",
+    "marca": "20.18",
+    "viento": "",
+    "fecha": "09/05/2026",
+    "lugar": "Alicante",
+    "categoria": "Sub 16",
+    "sexo": "Masculino",
+    "prueba": "Disco (1kg) MASC.",
+    "rank": "189",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3635,7 +3479,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "100m MASC. AL",
-    "rank": "273",
+    "rank": "286",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3661,7 +3505,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "60m vallas (0,91) SUB16 MASC. AL",
-    "rank": "185",
+    "rank": "186",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3687,7 +3531,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "1.500m Obst. MASC.",
-    "rank": "62",
+    "rank": "64",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3700,7 +3544,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "Altura MASC. AL",
-    "rank": "188",
+    "rank": "192",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3713,7 +3557,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "Peso (4kg) MASC. AL",
-    "rank": "183",
+    "rank": "186",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3726,7 +3570,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "Jabalina (600g) MASC.",
-    "rank": "158",
+    "rank": "163",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3739,7 +3583,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "100m vallas (0,91) MASC. AL",
-    "rank": "164",
+    "rank": "170",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3765,7 +3609,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "1.000m MASC. AL",
-    "rank": "28",
+    "rank": "29",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3778,7 +3622,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "60m MASC. AL Absoluta Masculino 2026",
-    "rank": "1849",
+    "rank": "1856",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3791,7 +3635,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "100m MASC. AL Absoluta Masculino 2026",
-    "rank": "1135",
+    "rank": "1223",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3817,7 +3661,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Altura MASC. AL Absoluta Masculino 2026",
-    "rank": "701",
+    "rank": "714",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3830,7 +3674,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Pértiga MASC. AL Absoluta Masculino 2026",
-    "rank": "592",
+    "rank": "596",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3843,7 +3687,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "1.000m MASC. AL Absoluta Masculino 2026",
-    "rank": "62",
+    "rank": "63",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3869,7 +3713,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "800m MASC. AL Absoluta Masculino 2026",
-    "rank": "506",
+    "rank": "529",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3882,7 +3726,7 @@
     "categoria": "Sub 23",
     "sexo": "Femenino",
     "prueba": "3.000m Marcha FEM. en pista",
-    "rank": "132",
+    "rank": "133",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3895,7 +3739,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "3.000m Marcha FEM. en pista Absoluta Femenino 2026",
-    "rank": "164",
+    "rank": "165",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3908,7 +3752,7 @@
     "categoria": "Sub 20",
     "sexo": "Femenino",
     "prueba": "Disco (1kg) FEM.",
-    "rank": "105",
+    "rank": "106",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3921,7 +3765,7 @@
     "categoria": "Sub 20",
     "sexo": "Femenino",
     "prueba": "Peso (4kg) FEM. AL",
-    "rank": "83",
+    "rank": "85",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3947,7 +3791,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Disco (1kg) FEM. Absoluta Femenino 2026",
-    "rank": "237",
+    "rank": "240",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3960,7 +3804,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Peso (4kg) FEM. AL Absoluta Femenino 2026",
-    "rank": "250",
+    "rank": "252",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3986,7 +3830,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "600m FEM. AL",
-    "rank": "242",
+    "rank": "249",
     "temporada": "2026",
     "puntos": 0
   },
@@ -3999,7 +3843,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "100m vallas (0,762)",
-    "rank": "88",
+    "rank": "96",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4012,7 +3856,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Hexatlón FEM.",
-    "rank": "45",
+    "rank": "48",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4025,7 +3869,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Jabalina (500g) FEM.",
-    "rank": "165",
+    "rank": "168",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4038,7 +3882,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Disco (800g) FEM.",
-    "rank": "162",
+    "rank": "166",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4051,7 +3895,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Triple Salto FEM. AL",
-    "rank": "71",
+    "rank": "75",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4064,7 +3908,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "300m vallas (0,762) FEM. AL",
-    "rank": "63",
+    "rank": "66",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4077,7 +3921,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Altura FEM. AL",
-    "rank": "240",
+    "rank": "241",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4090,20 +3934,20 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Peso (3kg) FEM. AL",
-    "rank": "303",
+    "rank": "310",
     "temporada": "2026",
     "puntos": 0
   },
   {
     "nombre": "LARA GOMEZ MARTINEZ",
-    "marca": "2.75",
+    "marca": "2.82",
     "viento": "",
-    "fecha": "25/04/2026",
-    "lugar": "Denia",
+    "fecha": "23/05/2026",
+    "lugar": "Elche",
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Pértiga FEM. AL",
-    "rank": "23",
+    "rank": "20",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4116,7 +3960,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Longitud FEM. AL",
-    "rank": "221",
+    "rank": "228",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4129,7 +3973,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "600m FEM. AL Absoluta Femenino 2026",
-    "rank": "261",
+    "rank": "274",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4142,7 +3986,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Triple Salto FEM. AL Absoluta Femenino 2026",
-    "rank": "284",
+    "rank": "290",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4155,7 +3999,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "300m vallas (0,762) FEM. AL Absoluta Femenino 2026",
-    "rank": "72",
+    "rank": "75",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4168,20 +4012,20 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Altura FEM. AL Absoluta Femenino 2026",
-    "rank": "594",
+    "rank": "598",
     "temporada": "2026",
     "puntos": 0
   },
   {
     "nombre": "LARA GOMEZ MARTINEZ",
-    "marca": "2.75",
+    "marca": "2.82",
     "viento": "",
-    "fecha": "25/04/2026",
-    "lugar": "Denia",
+    "fecha": "23/05/2026",
+    "lugar": "Elche",
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Pértiga FEM. AL Absoluta Femenino 2026",
-    "rank": "149",
+    "rank": "137",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4194,7 +4038,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Longitud FEM. AL Absoluta Femenino 2026",
-    "rank": "767",
+    "rank": "783",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4208,6 +4052,19 @@
     "sexo": "Femenino",
     "prueba": "4x200m FEM. AL Absoluta Femenino 2026",
     "rank": "15",
+    "temporada": "2026",
+    "puntos": 0
+  },
+  {
+    "nombre": "LEO BAEZA CARDONA",
+    "marca": "28.38",
+    "viento": "",
+    "fecha": "16/05/2026",
+    "lugar": "Denia",
+    "categoria": "Sub 16",
+    "sexo": "Masculino",
+    "prueba": "Disco (1kg) MASC.",
+    "rank": "107",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4233,7 +4090,20 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "100m MASC. AL",
-    "rank": "162",
+    "rank": "173",
+    "temporada": "2026",
+    "puntos": 0
+  },
+  {
+    "nombre": "LEO BAEZA CARDONA",
+    "marca": "43.11",
+    "viento": "",
+    "fecha": "25/04/2026",
+    "lugar": "Denia",
+    "categoria": "Sub 16",
+    "sexo": "Masculino",
+    "prueba": "300m vallas (0,84) MASC. AL",
+    "rank": "38",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4246,7 +4116,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "300m MASC. AL",
-    "rank": "72",
+    "rank": "78",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4272,7 +4142,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "Altura MASC. AL",
-    "rank": "176",
+    "rank": "179",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4285,7 +4155,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "Peso (4kg) MASC. AL",
-    "rank": "156",
+    "rank": "158",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4298,7 +4168,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "Jabalina (600g) MASC.",
-    "rank": "197",
+    "rank": "201",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4324,7 +4194,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "1.000m MASC. AL",
-    "rank": "344",
+    "rank": "350",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4337,7 +4207,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "Longitud MASC. AL",
-    "rank": "193",
+    "rank": "202",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4350,7 +4220,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "100m MASC. AL Absoluta Masculino 2026",
-    "rank": "904",
+    "rank": "985",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4363,7 +4233,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "300m MASC. AL Absoluta Masculino 2026",
-    "rank": "112",
+    "rank": "119",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4389,7 +4259,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Altura MASC. AL Absoluta Masculino 2026",
-    "rank": "680",
+    "rank": "692",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4402,7 +4272,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Pértiga MASC. AL Absoluta Masculino 2026",
-    "rank": "512",
+    "rank": "516",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4415,7 +4285,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "1.000m MASC. AL Absoluta Masculino 2026",
-    "rank": "511",
+    "rank": "520",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4428,7 +4298,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Longitud MASC. AL Absoluta Masculino 2026",
-    "rank": "867",
+    "rank": "888",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4480,7 +4350,7 @@
     "categoria": "Sub 20",
     "sexo": "Masculino",
     "prueba": "3.000m MASC. AL",
-    "rank": "50",
+    "rank": "51",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4545,7 +4415,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "3.000m MASC. AL Absoluta Masculino 2026",
-    "rank": "190",
+    "rank": "194",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4558,7 +4428,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "800m MASC. AL Absoluta Masculino 2026",
-    "rank": "139",
+    "rank": "147",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4571,7 +4441,7 @@
     "categoria": "Sub 20",
     "sexo": "Femenino",
     "prueba": "400m vallas (0,762) FEM. AL",
-    "rank": "101",
+    "rank": "104",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4597,7 +4467,7 @@
     "categoria": "Sub 20",
     "sexo": "Femenino",
     "prueba": "400m FEM. AL",
-    "rank": "349",
+    "rank": "354",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4610,7 +4480,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "400m vallas (0,762) FEM. AL Absoluta Femenino 2026",
-    "rank": "188",
+    "rank": "192",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4636,7 +4506,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "400m FEM. AL Absoluta Femenino 2026",
-    "rank": "611",
+    "rank": "624",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4662,7 +4532,7 @@
     "categoria": "Sub 18",
     "sexo": "Femenino",
     "prueba": "60m FEM. AL",
-    "rank": "210",
+    "rank": "211",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4675,7 +4545,7 @@
     "categoria": "Sub 18",
     "sexo": "Femenino",
     "prueba": "200m FEM. AL",
-    "rank": "103",
+    "rank": "107",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4701,7 +4571,7 @@
     "categoria": "Sub 18",
     "sexo": "Femenino",
     "prueba": "400m FEM. AL",
-    "rank": "57",
+    "rank": "60",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4727,7 +4597,7 @@
     "categoria": "Sub 18",
     "sexo": "Femenino",
     "prueba": "800m FEM. AL",
-    "rank": "153",
+    "rank": "160",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4766,7 +4636,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "60m FEM. AL Absoluta Femenino 2026",
-    "rank": "551",
+    "rank": "552",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4779,7 +4649,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "200m FEM. AL Absoluta Femenino 2026",
-    "rank": "396",
+    "rank": "409",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4805,7 +4675,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "400m FEM. AL Absoluta Femenino 2026",
-    "rank": "260",
+    "rank": "266",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4831,7 +4701,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "800m FEM. AL Absoluta Femenino 2026",
-    "rank": "502",
+    "rank": "517",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4844,7 +4714,7 @@
     "categoria": "Sub 14",
     "sexo": "Femenino",
     "prueba": "60m FEM. AL",
-    "rank": "112",
+    "rank": "113",
     "temporada": "2026",
     "puntos": 0
   },
@@ -4948,7 +4818,7 @@
     "categoria": "Sub 14",
     "sexo": "Femenino",
     "prueba": "Longitud FEM. AL",
-    "rank": "45",
+    "rank": "47",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5006,19 +4876,6 @@
   },
   {
     "nombre": "MARINA COZAR SELLES",
-    "marca": "3:34.38",
-    "viento": "",
-    "fecha": "09/05/2026",
-    "lugar": "Valencia-JAD",
-    "categoria": "Sub 14",
-    "sexo": "Femenino",
-    "prueba": "1.000m Obst. FEM con ría",
-    "rank": "4",
-    "temporada": "2026",
-    "puntos": 0
-  },
-  {
-    "nombre": "MARINA COZAR SELLES",
     "marca": "13.81",
     "viento": "1.4",
     "fecha": "17/05/2026",
@@ -5065,7 +4922,7 @@
     "categoria": "Sub 14",
     "sexo": "Femenino",
     "prueba": "220m vallas (0,76) FEM. AL",
-    "rank": "5",
+    "rank": "6",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5078,7 +4935,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "60m FEM. AL Absoluta Femenino 2026",
-    "rank": "1737",
+    "rank": "1741",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5104,7 +4961,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "1.000m FEM. ST Absoluta Femenino 2026",
-    "rank": "138",
+    "rank": "139",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5117,7 +4974,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Triple Salto FEM. AL Absoluta Femenino 2026",
-    "rank": "335",
+    "rank": "340",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5130,7 +4987,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Altura FEM. AL Absoluta Femenino 2026",
-    "rank": "722",
+    "rank": "726",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5143,7 +5000,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "1.000m FEM. AL Absoluta Femenino 2026",
-    "rank": "147",
+    "rank": "150",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5156,7 +5013,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Longitud FEM. AL Absoluta Femenino 2026",
-    "rank": "873",
+    "rank": "888",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5169,7 +5026,7 @@
     "categoria": "Sub 18",
     "sexo": "Femenino",
     "prueba": "Peso (4kg) FEM. AL",
-    "rank": "45",
+    "rank": "47",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5182,7 +5039,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Peso (4kg) FEM. AL Absoluta Femenino 2026",
-    "rank": "372",
+    "rank": "379",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5208,7 +5065,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "3.000m Marcha MASC. en pista",
-    "rank": "32",
+    "rank": "33",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5234,7 +5091,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "Pértiga MASC. AL",
-    "rank": "146",
+    "rank": "148",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5247,7 +5104,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "5.000m Marcha MASC. en pista Absoluta Masculino 2026",
-    "rank": "196",
+    "rank": "198",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5260,7 +5117,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "3.000m Marcha MASC. en pista Absoluta Masculino 2026",
-    "rank": "80",
+    "rank": "83",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5286,20 +5143,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Pértiga MASC. AL Absoluta Masculino 2026",
-    "rank": "605",
-    "temporada": "2026",
-    "puntos": 0
-  },
-  {
-    "nombre": "Mateo Gines Sanz, Adolfo Blas De Gea, Jaume Blas De Gea, Erik Amil Barbeito",
-    "marca": "44.09",
-    "viento": "",
-    "fecha": "25/04/2026",
-    "lugar": "Denia",
-    "categoria": "Sub 14",
-    "sexo": "Masculino",
-    "prueba": "4x80m MASC. AL",
-    "rank": "12",
+    "rank": "611",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5312,7 +5156,7 @@
     "categoria": "Sub 18",
     "sexo": "Femenino",
     "prueba": "60m FEM. AL",
-    "rank": "373",
+    "rank": "375",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5325,7 +5169,7 @@
     "categoria": "Sub 20",
     "sexo": "Femenino",
     "prueba": "200m FEM. AL",
-    "rank": "369",
+    "rank": "381",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5338,7 +5182,7 @@
     "categoria": "Sub 18",
     "sexo": "Femenino",
     "prueba": "400m vallas (0,762) FEM. AL",
-    "rank": "46",
+    "rank": "47",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5364,7 +5208,7 @@
     "categoria": "Sub 18",
     "sexo": "Femenino",
     "prueba": "400m FEM. AL",
-    "rank": "153",
+    "rank": "157",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5390,7 +5234,7 @@
     "categoria": "Sub 18",
     "sexo": "Femenino",
     "prueba": "100m vallas (0,762)",
-    "rank": "134",
+    "rank": "151",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5403,7 +5247,7 @@
     "categoria": "Sub 18",
     "sexo": "Femenino",
     "prueba": "200m FEM. AL",
-    "rank": "207",
+    "rank": "216",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5429,7 +5273,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "60m FEM. AL Absoluta Femenino 2026",
-    "rank": "825",
+    "rank": "827",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5442,7 +5286,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "200m FEM. AL Absoluta Femenino 2026",
-    "rank": "651",
+    "rank": "673",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5455,7 +5299,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "400m vallas (0,762) FEM. AL Absoluta Femenino 2026",
-    "rank": "160",
+    "rank": "161",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5481,7 +5325,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "400m FEM. AL Absoluta Femenino 2026",
-    "rank": "490",
+    "rank": "502",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5494,7 +5338,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "200m FEM. ST Absoluta Femenino 2026",
-    "rank": "409",
+    "rank": "408",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5507,7 +5351,7 @@
     "categoria": "Sub 23",
     "sexo": "Femenino",
     "prueba": "Disco (1kg) FEM.",
-    "rank": "129",
+    "rank": "133",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5520,7 +5364,7 @@
     "categoria": "Sub 23",
     "sexo": "Femenino",
     "prueba": "Peso (4kg) FEM. AL",
-    "rank": "188",
+    "rank": "192",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5546,7 +5390,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Disco (1kg) FEM. Absoluta Femenino 2026",
-    "rank": "199",
+    "rank": "203",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5559,7 +5403,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Peso (4kg) FEM. AL Absoluta Femenino 2026",
-    "rank": "313",
+    "rank": "317",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5624,7 +5468,7 @@
     "categoria": "Sub 14",
     "sexo": "Femenino",
     "prueba": "Peso (3kg) FEM. AL",
-    "rank": "139",
+    "rank": "140",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5637,7 +5481,7 @@
     "categoria": "Sub 14",
     "sexo": "Femenino",
     "prueba": "1.000m FEM. AL",
-    "rank": "155",
+    "rank": "159",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5650,7 +5494,7 @@
     "categoria": "Sub 14",
     "sexo": "Femenino",
     "prueba": "Longitud FEM. AL",
-    "rank": "113",
+    "rank": "120",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5715,7 +5559,7 @@
     "categoria": "Sub 14",
     "sexo": "Femenino",
     "prueba": "80m vallas (0,762) FEM",
-    "rank": "82",
+    "rank": "83",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5754,7 +5598,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "1.000m FEM. ST Absoluta Femenino 2026",
-    "rank": "208",
+    "rank": "209",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5767,7 +5611,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Altura FEM. AL Absoluta Femenino 2026",
-    "rank": "896",
+    "rank": "903",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5780,7 +5624,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "1.000m FEM. AL Absoluta Femenino 2026",
-    "rank": "470",
+    "rank": "476",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5793,7 +5637,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Longitud FEM. AL Absoluta Femenino 2026",
-    "rank": "1166",
+    "rank": "1190",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5819,7 +5663,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "600m FEM. AL",
-    "rank": "411",
+    "rank": "422",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5832,7 +5676,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "3.000m Marcha FEM. en pista",
-    "rank": "95",
+    "rank": "96",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5845,7 +5689,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "100m vallas (0,762)",
-    "rank": "200",
+    "rank": "213",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5858,7 +5702,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Hexatlón FEM.",
-    "rank": "80",
+    "rank": "86",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5871,7 +5715,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Martillo (3kg) FEM.",
-    "rank": "84",
+    "rank": "88",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5884,7 +5728,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Jabalina (500g) FEM.",
-    "rank": "217",
+    "rank": "222",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5897,7 +5741,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Disco (800g) FEM.",
-    "rank": "167",
+    "rank": "171",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5910,7 +5754,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "300m FEM. AL",
-    "rank": "452",
+    "rank": "465",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5923,7 +5767,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Triple Salto FEM. AL",
-    "rank": "177",
+    "rank": "178",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5936,7 +5780,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Altura FEM. AL",
-    "rank": "257",
+    "rank": "258",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5949,7 +5793,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Peso (3kg) FEM. AL",
-    "rank": "330",
+    "rank": "337",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5962,7 +5806,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Pértiga FEM. AL",
-    "rank": "69",
+    "rank": "71",
     "temporada": "2026",
     "puntos": 0
   },
@@ -5975,7 +5819,7 @@
     "categoria": "Sub 16",
     "sexo": "Femenino",
     "prueba": "Longitud FEM. AL",
-    "rank": "335",
+    "rank": "345",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6001,7 +5845,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "600m FEM. AL Absoluta Femenino 2026",
-    "rank": "439",
+    "rank": "456",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6014,7 +5858,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "3.000m Marcha FEM. en pista Absoluta Femenino 2026",
-    "rank": "145",
+    "rank": "146",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6027,7 +5871,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "300m FEM. AL Absoluta Femenino 2026",
-    "rank": "506",
+    "rank": "520",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6040,7 +5884,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Triple Salto FEM. AL Absoluta Femenino 2026",
-    "rank": "484",
+    "rank": "488",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6053,7 +5897,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Altura FEM. AL Absoluta Femenino 2026",
-    "rank": "627",
+    "rank": "631",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6066,7 +5910,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Pértiga FEM. AL Absoluta Femenino 2026",
-    "rank": "272",
+    "rank": "274",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6079,7 +5923,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Longitud FEM. AL Absoluta Femenino 2026",
-    "rank": "950",
+    "rank": "967",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6092,7 +5936,7 @@
     "categoria": "Sub 14",
     "sexo": "Femenino",
     "prueba": "4x80m FEM. AL",
-    "rank": "12",
+    "rank": "13",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6105,7 +5949,20 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "60m MASC. AL",
-    "rank": "342",
+    "rank": "347",
+    "temporada": "2026",
+    "puntos": 0
+  },
+  {
+    "nombre": "OMAR LAHSSINI BOUZIAN",
+    "marca": "30.3",
+    "viento": "",
+    "fecha": "29/03/2026",
+    "lugar": "Elda",
+    "categoria": "Sub 16",
+    "sexo": "Masculino",
+    "prueba": "Disco (1kg) MASC.",
+    "rank": "86",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6131,7 +5988,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "100m MASC. AL",
-    "rank": "213",
+    "rank": "222",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6170,7 +6027,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "Altura MASC. AL",
-    "rank": "130",
+    "rank": "131",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6183,7 +6040,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "Peso (4kg) MASC. AL",
-    "rank": "136",
+    "rank": "137",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6196,7 +6053,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "Jabalina (600g) MASC.",
-    "rank": "48",
+    "rank": "51",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6209,7 +6066,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "100m vallas (0,91) MASC. AL",
-    "rank": "29",
+    "rank": "31",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6222,7 +6079,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "Pértiga MASC. AL",
-    "rank": "22",
+    "rank": "21",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6235,7 +6092,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "1.000m MASC. AL",
-    "rank": "469",
+    "rank": "475",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6248,7 +6105,7 @@
     "categoria": "Sub 16",
     "sexo": "Masculino",
     "prueba": "Longitud MASC. AL",
-    "rank": "154",
+    "rank": "161",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6261,7 +6118,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "60m MASC. AL Absoluta Masculino 2026",
-    "rank": "1743",
+    "rank": "1750",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6274,7 +6131,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "100m MASC. AL Absoluta Masculino 2026",
-    "rank": "1027",
+    "rank": "1111",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6287,7 +6144,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Altura MASC. AL Absoluta Masculino 2026",
-    "rank": "586",
+    "rank": "595",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6300,7 +6157,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Pértiga MASC. AL Absoluta Masculino 2026",
-    "rank": "292",
+    "rank": "291",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6313,7 +6170,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "1.000m MASC. AL Absoluta Masculino 2026",
-    "rank": "666",
+    "rank": "676",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6326,7 +6183,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Longitud MASC. AL Absoluta Masculino 2026",
-    "rank": "799",
+    "rank": "818",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6339,7 +6196,7 @@
     "categoria": "Sub 23",
     "sexo": "Masculino",
     "prueba": "3.000m Obst. MASC.",
-    "rank": "70",
+    "rank": "73",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6352,7 +6209,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "3.000m Obst. MASC. Absoluta Masculino 2026",
-    "rank": "135",
+    "rank": "139",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6378,7 +6235,7 @@
     "categoria": "Sub 20",
     "sexo": "Masculino",
     "prueba": "400m MASC. AL",
-    "rank": "272",
+    "rank": "280",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6404,7 +6261,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "400m MASC. AL Absoluta Masculino 2026",
-    "rank": "654",
+    "rank": "669",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6417,7 +6274,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "1.500m MASC. AL",
-    "rank": "346",
+    "rank": "353",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6430,7 +6287,7 @@
     "categoria": "Sub 20",
     "sexo": "Masculino",
     "prueba": "Jabalina (800g) MASC.",
-    "rank": "18",
+    "rank": "19",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6443,7 +6300,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "Decatlón MASC.",
-    "rank": "49",
+    "rank": "53",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6456,7 +6313,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "Peso (5kg) MASC. AL",
-    "rank": "19",
+    "rank": "20",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6469,7 +6326,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "Disco (1,5kg) MASC.",
-    "rank": "29",
+    "rank": "31",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6495,7 +6352,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "1.500m MASC. AL Absoluta Masculino 2026",
-    "rank": "1352",
+    "rank": "1383",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6508,7 +6365,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Jabalina (800g) MASC. Absoluta Masculino 2026",
-    "rank": "87",
+    "rank": "88",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6560,7 +6417,7 @@
     "categoria": "Sub 20",
     "sexo": "Masculino",
     "prueba": "110m vallas (1,00) MASC. AL",
-    "rank": "7",
+    "rank": "8",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6599,7 +6456,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "110m vallas (1,067) MASC. AL Absoluta Masculino 2026",
-    "rank": "64",
+    "rank": "65",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6625,7 +6482,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "1.500m MASC. AL",
-    "rank": "207",
+    "rank": "210",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6664,7 +6521,7 @@
     "categoria": "Sub 18",
     "sexo": "Masculino",
     "prueba": "3.000m MASC. AL",
-    "rank": "139",
+    "rank": "145",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6677,7 +6534,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "1.500m MASC. AL Absoluta Masculino 2026",
-    "rank": "930",
+    "rank": "951",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6703,7 +6560,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "1.500m MASC. ST Absoluta Masculino 2026",
-    "rank": "608",
+    "rank": "607",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6716,7 +6573,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "3.000m MASC. AL Absoluta Masculino 2026",
-    "rank": "692",
+    "rank": "711",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6729,7 +6586,7 @@
     "categoria": "Sub 20",
     "sexo": "Femenino",
     "prueba": "60m FEM. AL",
-    "rank": "611",
+    "rank": "614",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6742,7 +6599,7 @@
     "categoria": "Sub 20",
     "sexo": "Femenino",
     "prueba": "100m FEM. AL",
-    "rank": "543",
+    "rank": "584",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6755,7 +6612,7 @@
     "categoria": "Sub 20",
     "sexo": "Femenino",
     "prueba": "200m FEM. AL",
-    "rank": "501",
+    "rank": "516",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6781,7 +6638,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "60m FEM. AL Absoluta Femenino 2026",
-    "rank": "888",
+    "rank": "891",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6794,7 +6651,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "100m FEM. AL Absoluta Femenino 2026",
-    "rank": "740",
+    "rank": "798",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6807,7 +6664,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "200m FEM. AL Absoluta Femenino 2026",
-    "rank": "830",
+    "rank": "855",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6839,6 +6696,19 @@
   },
   {
     "nombre": "SAUL DELGADO SERER",
+    "marca": "42.14",
+    "viento": "",
+    "fecha": "24/05/2026",
+    "lugar": "Alicante",
+    "categoria": "Sub 20",
+    "sexo": "Masculino",
+    "prueba": "Jabalina (800g) MASC.",
+    "rank": "52",
+    "temporada": "2026",
+    "puntos": 0
+  },
+  {
+    "nombre": "SAUL DELGADO SERER",
     "marca": "22.23",
     "viento": "",
     "fecha": "11/04/2026",
@@ -6846,7 +6716,7 @@
     "categoria": "Sub 23",
     "sexo": "Masculino",
     "prueba": "Disco (2kg) MASC.",
-    "rank": "88",
+    "rank": "94",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6872,7 +6742,7 @@
     "categoria": "Sub 20",
     "sexo": "Masculino",
     "prueba": "Altura MASC. AL",
-    "rank": "39",
+    "rank": "40",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6911,7 +6781,7 @@
     "categoria": "Sub 20",
     "sexo": "Masculino",
     "prueba": "Pértiga MASC. AL",
-    "rank": "41",
+    "rank": "40",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6924,7 +6794,7 @@
     "categoria": "Sub 20",
     "sexo": "Masculino",
     "prueba": "1.000m MASC. AL",
-    "rank": "68",
+    "rank": "73",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6937,7 +6807,7 @@
     "categoria": "Sub 20",
     "sexo": "Masculino",
     "prueba": "Longitud MASC. AL",
-    "rank": "64",
+    "rank": "67",
     "temporada": "2026",
     "puntos": 0
   },
@@ -6950,7 +6820,7 @@
     "categoria": "Sub 23",
     "sexo": "Masculino",
     "prueba": "Peso (7,260kg) MASC. AL",
-    "rank": "23",
+    "rank": "25",
     "temporada": "2026",
     "puntos": 0
   },
@@ -7021,6 +6891,19 @@
   },
   {
     "nombre": "SAUL DELGADO SERER",
+    "marca": "42.14",
+    "viento": "",
+    "fecha": "24/05/2026",
+    "lugar": "Alicante",
+    "categoria": "Absoluto",
+    "sexo": "Masculino",
+    "prueba": "Jabalina (800g) MASC. Absoluta Masculino 2026",
+    "rank": "165",
+    "temporada": "2026",
+    "puntos": 0
+  },
+  {
+    "nombre": "SAUL DELGADO SERER",
     "marca": "22.23",
     "viento": "",
     "fecha": "11/04/2026",
@@ -7028,7 +6911,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Disco (2kg) MASC. Absoluta Masculino 2026",
-    "rank": "277",
+    "rank": "283",
     "temporada": "2026",
     "puntos": 0
   },
@@ -7054,7 +6937,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Altura MASC. AL Absoluta Masculino 2026",
-    "rank": "114",
+    "rank": "116",
     "temporada": "2026",
     "puntos": 0
   },
@@ -7080,7 +6963,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "400m MASC. AL Absoluta Masculino 2026",
-    "rank": "234",
+    "rank": "238",
     "temporada": "2026",
     "puntos": 0
   },
@@ -7093,7 +6976,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Pértiga MASC. AL Absoluta Masculino 2026",
-    "rank": "131",
+    "rank": "129",
     "temporada": "2026",
     "puntos": 0
   },
@@ -7106,7 +6989,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "1.000m MASC. AL Absoluta Masculino 2026",
-    "rank": "99",
+    "rank": "104",
     "temporada": "2026",
     "puntos": 0
   },
@@ -7119,7 +7002,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Longitud MASC. AL Absoluta Masculino 2026",
-    "rank": "203",
+    "rank": "206",
     "temporada": "2026",
     "puntos": 0
   },
@@ -7132,7 +7015,7 @@
     "categoria": "Absoluto",
     "sexo": "Masculino",
     "prueba": "Peso (7,260kg) MASC. AL Absoluta Masculino 2026",
-    "rank": "92",
+    "rank": "95",
     "temporada": "2026",
     "puntos": 0
   },
@@ -7145,7 +7028,7 @@
     "categoria": "Sub 23",
     "sexo": "Femenino",
     "prueba": "1.500m FEM. AL",
-    "rank": "266",
+    "rank": "267",
     "temporada": "2026",
     "puntos": 0
   },
@@ -7184,7 +7067,7 @@
     "categoria": "Sub 23",
     "sexo": "Femenino",
     "prueba": "3.000m FEM. AL",
-    "rank": "185",
+    "rank": "186",
     "temporada": "2026",
     "puntos": 0
   },
@@ -7197,7 +7080,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "1.500m FEM. AL Absoluta Femenino 2026",
-    "rank": "394",
+    "rank": "398",
     "temporada": "2026",
     "puntos": 0
   },
@@ -7223,7 +7106,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "1.500m FEM. ST Absoluta Femenino 2026",
-    "rank": "296",
+    "rank": "293",
     "temporada": "2026",
     "puntos": 0
   },
@@ -7236,7 +7119,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "3.000m FEM. AL Absoluta Femenino 2026",
-    "rank": "303",
+    "rank": "304",
     "temporada": "2026",
     "puntos": 0
   },
@@ -7249,7 +7132,7 @@
     "categoria": "Sub 18",
     "sexo": "Femenino",
     "prueba": "Triple Salto FEM. AL",
-    "rank": "182",
+    "rank": "184",
     "temporada": "2026",
     "puntos": 0
   },
@@ -7262,7 +7145,7 @@
     "categoria": "Sub 18",
     "sexo": "Femenino",
     "prueba": "200m FEM. AL",
-    "rank": "384",
+    "rank": "402",
     "temporada": "2026",
     "puntos": 0
   },
@@ -7275,7 +7158,7 @@
     "categoria": "Sub 18",
     "sexo": "Femenino",
     "prueba": "Longitud FEM. AL",
-    "rank": "217",
+    "rank": "225",
     "temporada": "2026",
     "puntos": 0
   },
@@ -7288,7 +7171,7 @@
     "categoria": "Sub 18",
     "sexo": "Femenino",
     "prueba": "Peso (3kg) FEM. AL",
-    "rank": "310",
+    "rank": "318",
     "temporada": "2026",
     "puntos": 0
   },
@@ -7301,7 +7184,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Triple Salto FEM. AL Absoluta Femenino 2026",
-    "rank": "330",
+    "rank": "334",
     "temporada": "2026",
     "puntos": 0
   },
@@ -7314,7 +7197,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "200m FEM. AL Absoluta Femenino 2026",
-    "rank": "996",
+    "rank": "1033",
     "temporada": "2026",
     "puntos": 0
   },
@@ -7327,7 +7210,7 @@
     "categoria": "Absoluto",
     "sexo": "Femenino",
     "prueba": "Longitud FEM. AL Absoluta Femenino 2026",
-    "rank": "465",
+    "rank": "474",
     "temporada": "2026",
     "puntos": 0
   }
